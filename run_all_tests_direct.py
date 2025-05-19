@@ -17,7 +17,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import test_llm_api
 import test_tts
 import test_speech_recognition_direct  # Using direct speech recognition
-import test_vision_au_pyfeat  # Using PyFeat for AU detection
+import test_vision_au_direct  # Using direct approach for PyFeat
 
 def run_all_tests():
     """Run all QTrobot tests in sequence."""
@@ -106,29 +106,27 @@ def run_all_tests():
         speech_pub.publish("Direct Speech Recognition test encountered an error.")
         time.sleep(2)
 
-    # Test 4: Vision/AU Detection with PyFeat
+    # Test 4: Vision/AU Detection with Direct PyFeat (no speech)
     print("\n" + "=" * 50)
-    print("Test 4: Vision and AU Detection (PyFeat)")
+    print("Test 4: Vision and AU Detection (Direct PyFeat)")
     print("=" * 50)
-    speech_pub.publish("Starting Vision and Action Unit detection test using PyFeat.")
-    time.sleep(2)
+    print("Starting Vision and Action Unit detection test using PyFeat.")
 
     try:
         # Pass existing_node=True to avoid ROS node initialization error
-        vision_test = test_vision_au_pyfeat.VisionAUTestPyFeat(existing_node=True)
+        vision_test = test_vision_au_direct.DirectVisionAUTest(existing_node=True)
         vision_result = vision_test.run_test()
         results["Vision/AU Detection"] = vision_result
 
         if vision_result:
-            speech_pub.publish("Vision and Action Unit detection test successful.")
+            print("Vision and Action Unit detection test successful.")
         else:
-            speech_pub.publish("Vision and Action Unit detection test failed.")
-        time.sleep(2)
+            print("Vision and Action Unit detection test failed.")
     except Exception as e:
         print(f"Error in Vision/AU Detection test: {str(e)}")
         results["Vision/AU Detection"] = False
-        speech_pub.publish("Vision and Action Unit detection test encountered an error.")
-        time.sleep(2)
+        import traceback
+        traceback.print_exc()
 
     # Print summary of results
     print("\n" + "=" * 50)

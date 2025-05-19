@@ -9,7 +9,7 @@ chmod +x test_llm_api.py
 chmod +x test_tts.py
 chmod +x test_speech_recognition.py
 chmod +x test_vision_au_pyfeat.py
-chmod +x test_vision_au_simple.py
+chmod +x test_vision_au_direct.py
 chmod +x test_speech_recognition_direct.py
 
 # Make run scripts executable
