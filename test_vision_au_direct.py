@@ -15,10 +15,13 @@ from cv_bridge import CvBridge, CvBridgeError
 from sensor_msgs.msg import Image as RosImage
 import os
 import threading
+import argparse
 
 # Import PyFeat
 try:
     from feat import Detector
+    from feat.utils import get_resource_path
+    from feat.plotting import draw_box, draw_landmarks
     PYFEAT_AVAILABLE = True
 except ImportError:
     PYFEAT_AVAILABLE = False
@@ -27,8 +30,13 @@ except ImportError:
 class DirectVisionAUTest:
     """Direct test class for Vision and AU detection on QTrobot using PyFeat."""
 
-    def __init__(self, existing_node=False):
-        """Initialize the test."""
+    def __init__(self, existing_node=False, visualize=False):
+        """Initialize the test.
+
+        Args:
+            existing_node (bool): Whether to use an existing ROS node.
+            visualize (bool): Whether to display visualization of the results.
+        """
         # Check if PyFeat is available
         if not PYFEAT_AVAILABLE:
             print("PyFeat is not available. Please install it with: pip install py-feat")
@@ -40,6 +48,9 @@ class DirectVisionAUTest:
 
         # We won't use speech in this test
         self.speech_pub = None
+
+        # Set visualization flag
+        self.visualize = visualize
 
         # Initialize CV bridge
         self.bridge = CvBridge()
@@ -58,6 +69,7 @@ class DirectVisionAUTest:
         self.current_image = None
         self.face_detected = threading.Event()
         self.face_detection_timeout = threading.Event()
+        self.results = None
 
         # Subscribe to camera topic
         self.camera_sub = rospy.Subscriber('/camera/color/image_raw', RosImage, self.image_callback)
@@ -87,6 +99,83 @@ class DirectVisionAUTest:
 
         print(f"Image saved to {image_path}")
         return image_path
+
+    def visualize_results(self, image, results):
+        """Create a visualization of the PyFeat results.
+
+        Args:
+            image: The original image.
+            results: The PyFeat results dataframe.
+
+        Returns:
+            The image with visualizations added.
+        """
+        # Make a copy of the image for drawing
+        vis_image = image.copy()
+
+        # Get the first face (assuming single face for simplicity)
+        face_idx = 0
+
+        # Draw bounding box
+        if 'x' in results.columns and 'y' in results.columns and 'w' in results.columns and 'h' in results.columns:
+            x = int(results['x'].iloc[face_idx])
+            y = int(results['y'].iloc[face_idx])
+            w = int(results['w'].iloc[face_idx])
+            h = int(results['h'].iloc[face_idx])
+
+            # Draw face bounding box
+            cv2.rectangle(vis_image, (x, y), (x + w, y + h), (0, 255, 0), 2)
+
+        # Draw facial landmarks if available
+        if 'x_0' in results.columns:
+            landmarks = []
+            for i in range(68):  # Assuming 68 landmarks
+                if f'x_{i}' in results.columns and f'y_{i}' in results.columns:
+                    x = int(results[f'x_{i}'].iloc[face_idx])
+                    y = int(results[f'y_{i}'].iloc[face_idx])
+                    landmarks.append((x, y))
+                    cv2.circle(vis_image, (x, y), 2, (255, 0, 0), -1)
+
+        # Extract emotions
+        emotions = {}
+        for col in results.columns:
+            if col.startswith('emotion_'):
+                emotion_name = col.replace('emotion_', '')
+                emotions[emotion_name] = float(results[col].iloc[face_idx])
+
+        # Extract action units
+        aus = {}
+        for col in results.columns:
+            if col.startswith('AU') or col.lower().startswith('au'):
+                aus[col] = float(results[col].iloc[face_idx])
+
+        # Determine dominant emotion
+        if emotions:
+            dominant_emotion = max(emotions.items(), key=lambda x: x[1])[0]
+
+            # Display dominant emotion
+            font = cv2.FONT_HERSHEY_SIMPLEX
+            cv2.putText(vis_image, f"Emotion: {dominant_emotion}", (10, 30),
+                        font, 0.7, (0, 255, 0), 2, cv2.LINE_AA)
+
+            # Display emotion confidence values
+            y_pos = 60
+            for emotion, confidence in emotions.items():
+                text = f"{emotion}: {confidence:.2f}"
+                cv2.putText(vis_image, text, (10, y_pos),
+                            font, 0.5, (0, 255, 0), 1, cv2.LINE_AA)
+                y_pos += 20
+
+        # Display action units
+        if aus:
+            y_pos = 60
+            for au, value in list(aus.items())[:8]:  # Show first 8 AUs to avoid cluttering
+                text = f"{au}: {value:.2f}"
+                cv2.putText(vis_image, text, (vis_image.shape[1] - 150, y_pos),
+                            font, 0.5, (255, 0, 0), 1, cv2.LINE_AA)
+                y_pos += 20
+
+        return vis_image
 
     def run_test(self):
         """Run the vision and AU detection test."""
@@ -123,6 +212,7 @@ class DirectVisionAUTest:
         try:
             print("Processing image with PyFeat...")
             results = self.detector.detect_image(image_path)
+            self.results = results  # Store results for later use
 
             # Check if any faces were detected
             if results.empty:
@@ -174,6 +264,22 @@ class DirectVisionAUTest:
             feedback = f"I can see you! You appear to be {dominant_emotion}."
             print(f"\nResult: {feedback}")
 
+            # Visualize results if requested
+            if self.visualize:
+                # Load the saved image
+                image = cv2.imread(image_path)
+                if image is not None:
+                    # Create visualization
+                    vis_image = self.visualize_results(image, results)
+
+                    # Display the visualization
+                    cv2.imshow("PyFeat Detection Results", vis_image)
+                    print("\nShowing visualization. Press any key to continue...")
+                    cv2.waitKey(0)
+                    cv2.destroyAllWindows()
+                else:
+                    print("Failed to load image for visualization.")
+
             return True
 
         except Exception as e:
@@ -184,8 +290,18 @@ class DirectVisionAUTest:
 
 if __name__ == "__main__":
     try:
-        test = DirectVisionAUTest()
+        # Parse command line arguments
+        parser = argparse.ArgumentParser(description='Test PyFeat vision and AU detection')
+        parser.add_argument('--visualize', '-v', action='store_true',
+                            help='Display visualization of the detection results')
+        args = parser.parse_args()
+
+        # Initialize test with visualization option
+        test = DirectVisionAUTest(visualize=args.visualize)
+
+        # Run the test
         success = test.run_test()
+
         if success:
             print("\nVision and AU Detection test successful! ✅")
         else:

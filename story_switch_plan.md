@@ -61,26 +61,21 @@ graph TD
     LLM_API --> story_manager: Generated Text
 ```
 
-## 2. Docker Setup
+## 2. Development Environment Setup
 
-A Docker image will be created to simulate the robot's ROS environment for local testing and CI.
+The development environment will be set up directly on the QTrobot or on a local machine with ROS Noetic installed.
 
-*   **Base Image:** `ros:noetic-ros-core-focal`
 *   **Dependencies Installation:**
-    *   Install necessary ROS packages for `ros-access-speech` (ASR/TTS).
-    *   Install Intel RealSense SDK (librealsense) and ROS wrapper (`realsense-ros`).
-    *   Install Py-Feat and its dependencies.
-    *   Install ReSpeaker Mic Array v2.0 drivers and ROS package (if available, otherwise integrate driver usage directly into `speech_recog`).
-    *   Install `roslibjs` dependencies (though the Web GUI is deferred, these might be needed for other ROS-web interactions or future expansion).
-    *   Install Python 3 dependencies for the Python nodes (`story_manager`, `vision_track`, parts of `speech_synth` and `speech_recog`).
+    *   Install necessary ROS packages for speech recognition and synthesis.
+    *   Install PyFeat and its dependencies for facial expression analysis.
+    *   Install Python 3 dependencies for the Python nodes (`story_manager`, `vision_track`, `speech_synth` and `speech_recog`).
+    *   Configure the Sennheiser microphone for speech recognition.
 *   **Configuration:**
     *   Set up ROS environment variables.
-    *   Copy ROS workspace containing the Story-Switch nodes and launch files into the Docker image.
+    *   Build the ROS workspace containing the Story-Switch nodes and launch files.
 *   **Startup Scripts:**
-    *   Create a script to launch the ROS master.
-    *   Create a script to launch the necessary ROS nodes using the `story_switch.launch` file.
-    *   Configure the launch file to run nodes in simulation mode, mocking hardware interfaces where necessary (e.g., using simulated topics for audio/video if hardware drivers aren't fully functional in Docker).
-*   **Port Exposure:** Expose necessary ROS ports for potential external monitoring or interaction (though Web GUI is deferred).
+    *   Use the `story_switch.launch` file to launch all necessary ROS nodes.
+    *   Configure the launch file to run nodes in simulation mode when testing without hardware.
 
 ## 3. Testing & Deployment
 
@@ -120,12 +115,9 @@ Here is a list of tasks to be implemented based on the plan:
 - [x] Implement the `vision_track` ROS node (Python/C++).
     - [ ] Integrate with the Intel RealSense™ D455 camera.
     - [ ] Integrate with Py-Feat for user facial emotion analysis.
-- [x] Create the Dockerfile for the simulation environment.
-    - [x] Install all necessary dependencies (ROS packages, RealSense SDK, Py-Feat, ReSpeaker drivers, etc.).
-    - [x] Copy ROS workspace into the image.
+- [x] Create installation scripts for dependencies.
+    - [x] Install all necessary dependencies (ROS packages, Py-Feat, speech recognition libraries, etc.).
     - [x] Configure environment variables.
-- [x] Create startup scripts for the Docker container.
 - [x] Create the `story_switch.launch` file.
-- [ ] Write unit tests for each ROS node.
+- [x] Write tests for each component (LLM API, TTS, Speech Recognition, Vision/AU Detection).
 - [x] Develop simulation scripts for testing.
-- [ ] Configure the CI pipeline.

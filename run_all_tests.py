@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-Main script to run all QTrobot tests in sequence.
-This script runs tests for LLM API, TTS, Speech Recognition, and Vision/AU Detection.
+Main script to run all QTrobot tests in sequence, using direct speech recognition.
+This script runs tests for LLM API, TTS, Direct Speech Recognition, and Vision/AU Detection.
 """
 
 import os
@@ -16,13 +16,13 @@ from std_msgs.msg import String
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import test_llm_api
 import test_tts
-import test_speech_recognition
-import test_vision_au_pyfeat  # Using PyFeat instead of Nuitrack
+import test_speech_recognition_direct  # Using direct speech recognition
+import test_vision_au_direct  # Using direct approach for PyFeat
 
 def run_all_tests():
     """Run all QTrobot tests in sequence."""
     print("=" * 50)
-    print("Starting QTrobot Component Tests")
+    print("Starting QTrobot Component Tests (with Direct Speech Recognition)")
     print("=" * 50)
 
     # Initialize ROS node for announcements
@@ -31,7 +31,7 @@ def run_all_tests():
     time.sleep(1)  # Wait for publisher to connect
 
     # Announce start of tests
-    speech_pub.publish("Starting QT Robot component tests.")
+    speech_pub.publish("Starting QT Robot component tests with direct speech recognition.")
     time.sleep(3)
 
     # Track test results
@@ -82,53 +82,51 @@ def run_all_tests():
         speech_pub.publish("Text to Speech test encountered an error.")
         time.sleep(2)
 
-    # Test 3: Speech Recognition
+    # Test 3: Direct Speech Recognition
     print("\n" + "=" * 50)
-    print("Test 3: Speech Recognition")
+    print("Test 3: Direct Speech Recognition")
     print("=" * 50)
-    speech_pub.publish("Starting Speech Recognition test.")
+    speech_pub.publish("Starting Direct Speech Recognition test.")
     time.sleep(2)
 
     try:
         # Pass existing_node=True to avoid ROS node initialization error
-        sr_test = test_speech_recognition.SpeechRecognitionTest(existing_node=True)
+        sr_test = test_speech_recognition_direct.DirectSpeechRecognitionTest(existing_node=True)
         sr_result = sr_test.run_test()
         results["Speech Recognition"] = sr_result
 
         if sr_result:
-            speech_pub.publish("Speech Recognition test successful.")
+            speech_pub.publish("Direct Speech Recognition test successful.")
         else:
-            speech_pub.publish("Speech Recognition test failed.")
+            speech_pub.publish("Direct Speech Recognition test failed.")
         time.sleep(2)
     except Exception as e:
-        print(f"Error in Speech Recognition test: {str(e)}")
+        print(f"Error in Direct Speech Recognition test: {str(e)}")
         results["Speech Recognition"] = False
-        speech_pub.publish("Speech Recognition test encountered an error.")
+        speech_pub.publish("Direct Speech Recognition test encountered an error.")
         time.sleep(2)
 
-    # Test 4: Vision/AU Detection with PyFeat
+    # Test 4: Vision/AU Detection with Direct PyFeat (no speech)
     print("\n" + "=" * 50)
-    print("Test 4: Vision and AU Detection (PyFeat)")
+    print("Test 4: Vision and AU Detection (Direct PyFeat)")
     print("=" * 50)
-    speech_pub.publish("Starting Vision and Action Unit detection test using PyFeat.")
-    time.sleep(2)
+    print("Starting Vision and Action Unit detection test using PyFeat.")
 
     try:
         # Pass existing_node=True to avoid ROS node initialization error
-        vision_test = test_vision_au_pyfeat.VisionAUTestPyFeat(existing_node=True)
+        vision_test = test_vision_au_direct.DirectVisionAUTest(existing_node=True)
         vision_result = vision_test.run_test()
         results["Vision/AU Detection"] = vision_result
 
         if vision_result:
-            speech_pub.publish("Vision and Action Unit detection test successful.")
+            print("Vision and Action Unit detection test successful.")
         else:
-            speech_pub.publish("Vision and Action Unit detection test failed.")
-        time.sleep(2)
+            print("Vision and Action Unit detection test failed.")
     except Exception as e:
         print(f"Error in Vision/AU Detection test: {str(e)}")
         results["Vision/AU Detection"] = False
-        speech_pub.publish("Vision and Action Unit detection test encountered an error.")
-        time.sleep(2)
+        import traceback
+        traceback.print_exc()
 
     # Print summary of results
     print("\n" + "=" * 50)
