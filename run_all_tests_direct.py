@@ -17,7 +17,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import test_llm_api
 import test_tts
 import test_speech_recognition_direct  # Using direct speech recognition
-import test_vision_au_simple  # Using simplified AU detection
+import test_vision_au_pyfeat  # Using PyFeat for AU detection
 
 def run_all_tests():
     """Run all QTrobot tests in sequence."""
@@ -106,16 +106,16 @@ def run_all_tests():
         speech_pub.publish("Direct Speech Recognition test encountered an error.")
         time.sleep(2)
 
-    # Test 4: Vision/AU Detection with Simplified Method
+    # Test 4: Vision/AU Detection with PyFeat
     print("\n" + "=" * 50)
-    print("Test 4: Vision and AU Detection (Simplified)")
+    print("Test 4: Vision and AU Detection (PyFeat)")
     print("=" * 50)
-    speech_pub.publish("Starting Vision and Action Unit detection test using OpenCV.")
+    speech_pub.publish("Starting Vision and Action Unit detection test using PyFeat.")
     time.sleep(2)
 
     try:
         # Pass existing_node=True to avoid ROS node initialization error
-        vision_test = test_vision_au_simple.SimpleVisionAUTest(existing_node=True)
+        vision_test = test_vision_au_pyfeat.VisionAUTestPyFeat(existing_node=True)
         vision_result = vision_test.run_test()
         results["Vision/AU Detection"] = vision_result
 
