@@ -15,6 +15,7 @@ chmod +x test_llm_api.py
 chmod +x test_tts.py
 chmod +x test_speech_recognition.py
 chmod +x test_vision_au.py
+chmod +x test_vision_au_pyfeat.py
 chmod +x run_all_tests.py
 
 # Create .env file if it doesn't exist
