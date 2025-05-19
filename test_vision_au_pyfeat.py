@@ -16,6 +16,7 @@ from cv_bridge import CvBridge, CvBridgeError
 from sensor_msgs.msg import Image
 import json
 import os
+from PIL import Image
 
 # Import PyFeat if available
 try:
@@ -89,14 +90,26 @@ class VisionAUTestPyFeat:
     def process_image(self, image):
         """Process the image with PyFeat to detect faces and AUs."""
         try:
-            # Detect all features in one go
-            self.face_data = self.detector.detect_image(image)
+            # Convert OpenCV image (NumPy array) to PIL Image
+            # OpenCV uses BGR, PIL uses RGB
+            image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+            pil_image = Image.fromarray(image_rgb)
+
+            # Save the image temporarily to a file
+            temp_image_path = "/tmp/temp_face_image.jpg"
+            pil_image.save(temp_image_path)
+
+            # Detect all features using the file path
+            print("Detecting faces with PyFeat...")
+            self.face_data = self.detector.detect_image(temp_image_path)
 
             # Check if any faces are detected
             if not self.face_data.empty:
                 self.has_face = True
                 self.face_detected.set()
                 print("Face detected by PyFeat!")
+            else:
+                print("No faces detected by PyFeat.")
 
         except Exception as e:
             print(f"Error processing image with PyFeat: {str(e)}")
