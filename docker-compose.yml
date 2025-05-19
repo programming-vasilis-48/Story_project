@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  story_switch:
+    build: .
+    container_name: story_switch
+    network_mode: host
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      - ./src:/catkin_ws/src
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    command: bash -c "source /opt/ros/noetic/setup.bash && source /catkin_ws/devel/setup.bash && roslaunch story_switch story_switch.launch"

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Launch the Story Manager node -->
+  <node name="story_manager" pkg="story_switch" type="story_manager_node.py" output="screen" />
+  
+  <!-- Launch the Speech Synthesizer node -->
+  <node name="speech_synth" pkg="story_switch" type="speech_synth_node.py" output="screen" />
+  
+  <!-- Launch the Speech Recognizer node -->
+  <node name="speech_recog" pkg="story_switch" type="speech_recog_node.py" output="screen" />
+  
+  <!-- Launch the Vision Tracker node -->
+  <node name="vision_track" pkg="story_switch" type="vision_track_node.py" output="screen" />
+</launch>
