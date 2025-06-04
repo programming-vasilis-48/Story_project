@@ -1,0 +1,17 @@
+{
+  "session_id": "2025-06-04_17-47-08_will3",
+  "person_name": "will3",
+  "voice_type": "Experiment with both voice types",
+  "start_time": 1749052028.487541,
+  "end_time": 1749052460.0693765,
+  "total_exchanges": 14,
+  "emotions_used": {
+    "surprise": 2,
+    "disgust": 2,
+    "angry": 2,
+    "happy": 2,
+    "sad": 2,
+    "neutral": 2,
+    "fear": 2
+  }
+}

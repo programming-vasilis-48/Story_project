@@ -1,0 +1,153 @@
+SESSION SUMMARY
+==============
+
+Participant: will3
+Voice Type: Experiment with both voice types
+Session Time: 2025-06-04 17:47:08
+Duration: 7.19 minutes
+Total Exchanges: 14
+
+EMOTION USAGE
+============
+
+surprise: 2
+disgust: 2
+angry: 2
+happy: 2
+sad: 2
+neutral: 2
+fear: 2
+
+SPEECH EVENTS
+============
+
+[2025-06-04 17:47:57] ROBOT (surprise): You sit in a chair at Zernike campus. The researcher hands you a strange device. Suddenly, the room is filled with a loud noise. The chair in front of you is now empty, but you're still sitting.
+
+[2025-06-04 17:48:12] USER: Suddenly the door breaks open and apples are falling from the sky.
+
+[2025-06-04 17:48:31] ROBOT (disgust): You see maggots crawling out of the rotten apples that are still falling, some of them landing on your arms. The researcher is standing behind you, his hands covered in a thick layer of dirt and decaying matter.
+
+[2025-06-04 17:48:44] USER: He smells like manure and poop, and he's stinky, and he smells really bad.
+
+[2025-06-04 17:48:59] ROBOT (angry): You're covered in maggots and rot, the stench is suffocating. The researcher's dirty hands are now on your shoulders, holding you in place.
+
+[2025-06-04 17:49:09] USER: What is he going to do to me?
+
+[2025-06-04 17:49:23] ROBOT (happy): You feel the researcher's grip loosen, and you're able to shrug him off. Flowers start to bloom all around you, filling the air with sweet fragrances.
+
+[2025-06-04 17:49:43] USER: Suddenly flowers are the worst smell in the entire world and flowers are so evil and so awful
+
+[2025-06-04 17:50:02] ROBOT (sad): Your arms are empty, the maggots are gone, but your skin is still sticky with rot. The flowers that bloomed are now wilted and dying, their petals falling to the ground.
+
+[2025-06-04 17:50:12] USER: Life is a part of death.
+
+[2025-06-04 17:50:23] ROBOT (neutral): You stand up, looking around at the empty room. The device the researcher gave you is still in your hand.
+
+[2025-06-04 17:50:34] USER: The device starts to sprout a plant.
+
+[2025-06-04 17:50:53] ROBOT (fear): The plant is growing faster, its tendrils snaking around your wrist, holding the device in place. The researcher's voice is whispering in your ear, "It's time to plant you now".
+
+[2025-06-04 17:51:00] USER: What's gonna happen next?
+
+[2025-06-04 17:51:25] ROBOT (disgust): You sit in the chair at Zernike campus. A stranger hands you a dirty cup. The person next to you is eating a strong-smelling cheese. The air in the room is thick with stale sweat.
+
+[2025-06-04 17:51:35] USER: Nothing interesting happens
+
+[2025-06-04 17:51:51] ROBOT (neutral): You look around the room, people are sitting or standing, some are talking, others are not. The person next to you finishes their cheese and gets up to leave.
+
+[2025-06-04 17:51:59] USER: Suddenly, an earthquake begins.
+
+[2025-06-04 17:52:11] ROBOT (angry): The room shakes violently, and things fall off the tables. Your chair scrapes against the floor as you're pushed back.
+
+[2025-06-04 17:52:20] USER: Then there was no earthquake, and it was just a hallucination.
+
+[2025-06-04 17:52:33] ROBOT (surprise): The person who was sitting next to you is now standing on their head. The stranger who handed you the dirty cup is laughing maniacally.
+
+[2025-06-04 17:52:40] USER: This is very interesting.
+
+[2025-06-04 17:52:55] ROBOT (happy): You watch as the person on their head starts to juggle three colorful balls. The stranger's laughter becomes a contagious sound, and you find yourself smiling along with them.
+
+[2025-06-04 17:53:10] USER: Suddenly, the ground shakes again.
+
+[2025-06-04 17:53:28] ROBOT (fear): The ground shakes again, and this time the juggling balls fly out of the person's hands. The stranger's laughter stops, and they stare at you with an unblinking gaze.
+
+[2025-06-04 17:53:43] USER: Everyone has now an unblinking gaze and the earthquake was all in the head.
+
+[2025-06-04 17:53:59] ROBOT (sad): You're left alone in the empty room, the only sound the echo of your own breathing. The chair in front of you is now a hollow, unnecessary thing.
+
+[2025-06-04 17:54:04] USER: Everything is.
+
+
+VIDEO RECORDINGS
+==============
+
+File: will3_Emotional_OpenAI_TTS_surprise_exchange_0.mp4
+Emotion: surprise
+Start: 2025-06-04 17:47:40
+Duration: 32.17 seconds
+
+File: will3_Emotional_OpenAI_TTS_disgust_exchange_1.mp4
+Emotion: disgust
+Start: 2025-06-04 17:48:13
+Duration: 30.94 seconds
+
+File: will3_Emotional_OpenAI_TTS_angry_exchange_2.mp4
+Emotion: angry
+Start: 2025-06-04 17:48:45
+Duration: 23.27 seconds
+
+File: will3_Emotional_OpenAI_TTS_happy_exchange_3.mp4
+Emotion: happy
+Start: 2025-06-04 17:49:10
+Duration: 33.57 seconds
+
+File: will3_Emotional_OpenAI_TTS_sad_exchange_4.mp4
+Emotion: sad
+Start: 2025-06-04 17:49:45
+Duration: 27.67 seconds
+
+File: will3_Emotional_OpenAI_TTS_neutral_exchange_5.mp4
+Emotion: neutral
+Start: 2025-06-04 17:50:13
+Duration: 20.90 seconds
+
+File: will3_Emotional_OpenAI_TTS_fear_exchange_6.mp4
+Emotion: fear
+Start: 2025-06-04 17:50:35
+Duration: 24.40 seconds
+
+File: will3_Emotionless_Voice_disgust_exchange_0.mp4
+Emotion: disgust
+Start: 2025-06-04 17:51:09
+Duration: 25.84 seconds
+
+File: will3_Emotionless_Voice_neutral_exchange_1.mp4
+Emotion: neutral
+Start: 2025-06-04 17:51:37
+Duration: 22.87 seconds
+
+File: will3_Emotionless_Voice_angry_exchange_2.mp4
+Emotion: angry
+Start: 2025-06-04 17:52:00
+Duration: 19.77 seconds
+
+File: will3_Emotionless_Voice_surprise_exchange_3.mp4
+Emotion: surprise
+Start: 2025-06-04 17:52:22
+Duration: 18.24 seconds
+
+File: will3_Emotionless_Voice_happy_exchange_4.mp4
+Emotion: happy
+Start: 2025-06-04 17:52:41
+Duration: 29.17 seconds
+
+File: will3_Emotionless_Voice_fear_exchange_5.mp4
+Emotion: fear
+Start: 2025-06-04 17:53:12
+Duration: 31.50 seconds
+
+File: will3_Emotionless_Voice_sad_exchange_6.mp4
+Emotion: sad
+Start: 2025-06-04 17:53:44
+Duration: 19.60 seconds
+

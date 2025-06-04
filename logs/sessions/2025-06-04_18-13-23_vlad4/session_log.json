@@ -1,0 +1,499 @@
+{
+  "metadata": {
+    "session_id": "2025-06-04_18-13-23_vlad4",
+    "person_name": "vlad4",
+    "voice_type": "Experiment with both voice types",
+    "start_time": 1749053603.9943984,
+    "end_time": 1749054075.963073,
+    "total_exchanges": 14,
+    "emotions_used": {
+      "fear": 2,
+      "angry": 2,
+      "sad": 2,
+      "surprise": 2,
+      "neutral": 2,
+      "disgust": 2,
+      "happy": 2
+    }
+  },
+  "speech_events": [
+    {
+      "timestamp": 1749053652.9693947,
+      "speaker": "robot",
+      "text": "You sit in the chair at the Zernike campus. The researcher is out of sight, but you can hear them moving. The door is locked, you can't leave now. The sound of footsteps is getting closer, but they're not coming from the hallway.",
+      "emotion_attempted": "fear",
+      "duration": 16.683926820755005,
+      "exchange_number": 0,
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749053657.5849223,
+      "speaker": "user",
+      "text": "Where are they coming from?",
+      "emotion_attempted": null,
+      "duration": 4.614838361740112,
+      "exchange_number": 1,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053667.6456234,
+      "speaker": "robot",
+      "text": "The floor is shaking, they're right behind you. They're standing over you, their breath on the back of your neck.",
+      "emotion_attempted": "angry",
+      "duration": 9.037764549255371,
+      "exchange_number": 1,
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749053678.3704658,
+      "speaker": "user",
+      "text": "Damn, he's breathing and he's stinging as fuck. I don't want to smell this guy ever again in my life.",
+      "emotion_attempted": null,
+      "duration": 10.72407341003418,
+      "exchange_number": 2,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053693.6409867,
+      "speaker": "robot",
+      "text": "Your phone is on the table, the screen is dark, no messages, no calls. The researcher's voice is low, \"I'm afraid it's time to say goodbye.\"",
+      "emotion_attempted": "sad",
+      "duration": 14.246170997619629,
+      "exchange_number": 2,
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749053704.995723,
+      "speaker": "user",
+      "text": "Oh no, I don't want to say goodbye, I don't want to let go.",
+      "emotion_attempted": null,
+      "duration": 11.353891372680664,
+      "exchange_number": 3,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053720.4823644,
+      "speaker": "robot",
+      "text": "The researcher's hand is on your shoulder, but it's not just their hand, it's a glove with sharp fingers. The glove is pulling you up, and you're standing, but your feet aren't touching the floor.",
+      "emotion_attempted": "surprise",
+      "duration": 14.156448602676392,
+      "exchange_number": 3,
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749053732.2340531,
+      "speaker": "user",
+      "text": "I'm not touching the floor, I'm touching you.",
+      "emotion_attempted": null,
+      "duration": 11.75077772140503,
+      "exchange_number": 4,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053745.7860513,
+      "speaker": "robot",
+      "text": "You are facing the researcher, their face is in front of you. They are not smiling, not frowning, just looking at you.",
+      "emotion_attempted": "neutral",
+      "duration": 11.013935565948486,
+      "exchange_number": 4,
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749053766.9485488,
+      "speaker": "user",
+      "text": "I look back at the researcher, and he's pretty, and I tell him that he's pretty, and then she comes and kisses me.",
+      "emotion_attempted": null,
+      "duration": 21.161541223526,
+      "exchange_number": 5,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053780.1974375,
+      "speaker": "robot",
+      "text": "Her tongue is in your mouth, and it's covered in something sticky. Her breath is warm and has a sour smell.",
+      "emotion_attempted": "disgust",
+      "duration": 10.89462924003601,
+      "exchange_number": 5,
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749053813.4444396,
+      "speaker": "user",
+      "text": "But that's how I like it, his tongue kisses me till I die because his tongue is so deep in my throat and his saliva is so moist and stinky that I vomit and I die, I vomit and I die.",
+      "emotion_attempted": null,
+      "duration": 33.245845794677734,
+      "exchange_number": 6,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053827.0477743,
+      "speaker": "robot",
+      "text": "You are surrounded by warm sunlight, and gentle fingers are stroking your hair. Soft music is playing, and you are swaying to the beat.",
+      "emotion_attempted": "happy",
+      "duration": 11.254264116287231,
+      "exchange_number": 6,
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749053839.8572736,
+      "speaker": "user",
+      "text": "Yes, I'm going to Heaven. I knew that God was real.",
+      "emotion_attempted": null,
+      "duration": 12.808281421661377,
+      "exchange_number": 7,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053863.1225362,
+      "speaker": "robot",
+      "text": "You sit in a chair on the Zernike campus. You're here to take part in a study. The sun shines through the window behind you. You see friends walking by outside the door.",
+      "emotion_attempted": "happy",
+      "duration": 13.285187721252441,
+      "exchange_number": 7,
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749053882.354432,
+      "speaker": "user",
+      "text": "Oh, my friends that I miss so much. How are you doing?",
+      "emotion_attempted": null,
+      "duration": 19.229997396469116,
+      "exchange_number": 8,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053893.813347,
+      "speaker": "robot",
+      "text": "One of them suddenly stops in front of the door and stares at you. The friend's eyes are black as coal.",
+      "emotion_attempted": "surprise",
+      "duration": 10.576110363006592,
+      "exchange_number": 8,
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749053909.6952863,
+      "speaker": "user",
+      "text": "Oh, this black. How did it become this black?",
+      "emotion_attempted": null,
+      "duration": 15.880550861358643,
+      "exchange_number": 9,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053927.352044,
+      "speaker": "robot",
+      "text": "The friend's face is now twisted, their mouth hanging open in a silent scream. The eyes seem to be pulling you in, closer and closer.",
+      "emotion_attempted": "fear",
+      "duration": 16.500093460083008,
+      "exchange_number": 9,
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749053936.8327131,
+      "speaker": "user",
+      "text": "So close. What does it want, me?",
+      "emotion_attempted": null,
+      "duration": 9.477540493011475,
+      "exchange_number": 10,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053954.6534965,
+      "speaker": "robot",
+      "text": "The friend's mouth opens wider, revealing empty spaces where teeth used to be. Your voice is shaking as you whisper \"what's happened to you\".",
+      "emotion_attempted": "sad",
+      "duration": 14.367359399795532,
+      "exchange_number": 10,
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749053968.1659126,
+      "speaker": "user",
+      "text": "Yeah, I miss my friend now, and I'm about to cry.",
+      "emotion_attempted": null,
+      "duration": 13.510413885116577,
+      "exchange_number": 11,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053982.331935,
+      "speaker": "robot",
+      "text": "The friend's empty mouth curls into a snarl, revealing jagged edges. You're trapped, and it's taking a step closer.",
+      "emotion_attempted": "angry",
+      "duration": 11.707440376281738,
+      "exchange_number": 11,
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749054008.9235132,
+      "speaker": "user",
+      "text": "I am trapped. How can this be? I'm trying to escape. I will leave this place once and for all. I said to my friend and then I ran through the security gates and I get a jetpack out of nowhere and I fly to the moon.",
+      "emotion_attempted": null,
+      "duration": 26.58951187133789,
+      "exchange_number": 12,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749054023.131639,
+      "speaker": "robot",
+      "text": "You float in the moon's low gravity, the suit's life support systems humming. The earth is a blue-green globe below you, a familiar yet distant presence.",
+      "emotion_attempted": "neutral",
+      "duration": 13.136224746704102,
+      "exchange_number": 12,
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749054029.1991348,
+      "speaker": "user",
+      "text": "I'm... OJ.",
+      "emotion_attempted": null,
+      "duration": 6.064428091049194,
+      "exchange_number": 13,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749054049.0057755,
+      "speaker": "robot",
+      "text": "You notice a thick layer of gray dust coating the suit's exterior, and as you touch it, your finger comes away sticky with a foul substance. The suit's life support systems are now beeping erratically, warning of a toxic spill inside.",
+      "emotion_attempted": "disgust",
+      "duration": 18.576008796691895,
+      "exchange_number": 13,
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749054061.350534,
+      "speaker": "user",
+      "text": "Damn, that's disgusting, ew. How could that ever happen? Disgusting.",
+      "emotion_attempted": null,
+      "duration": 12.342844009399414,
+      "exchange_number": 14,
+      "voice_type": null
+    }
+  ],
+  "video_events": [
+    {
+      "timestamp": 1749053636.2830706,
+      "event_type": "start",
+      "filename": "vlad4_Emotionless_Voice_fear_exchange_0.mp4",
+      "exchange_number": 0,
+      "emotion_attempted": "fear",
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749053657.5860393,
+      "event_type": "stop",
+      "filename": "vlad4_Emotionless_Voice_fear_exchange_0.mp4",
+      "exchange_number": 1,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053658.6065514,
+      "event_type": "start",
+      "filename": "vlad4_Emotionless_Voice_angry_exchange_1.mp4",
+      "exchange_number": 1,
+      "emotion_attempted": "angry",
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749053678.3749807,
+      "event_type": "stop",
+      "filename": "vlad4_Emotionless_Voice_angry_exchange_1.mp4",
+      "exchange_number": 2,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053679.3930237,
+      "event_type": "start",
+      "filename": "vlad4_Emotionless_Voice_sad_exchange_2.mp4",
+      "exchange_number": 2,
+      "emotion_attempted": "sad",
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749053705.0286403,
+      "event_type": "stop",
+      "filename": "vlad4_Emotionless_Voice_sad_exchange_2.mp4",
+      "exchange_number": 3,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053706.3245142,
+      "event_type": "start",
+      "filename": "vlad4_Emotionless_Voice_surprise_exchange_3.mp4",
+      "exchange_number": 3,
+      "emotion_attempted": "surprise",
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749053732.2598085,
+      "event_type": "stop",
+      "filename": "vlad4_Emotionless_Voice_surprise_exchange_3.mp4",
+      "exchange_number": 4,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053734.7706406,
+      "event_type": "start",
+      "filename": "vlad4_Emotionless_Voice_neutral_exchange_4.mp4",
+      "exchange_number": 4,
+      "emotion_attempted": "neutral",
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749053766.972829,
+      "event_type": "stop",
+      "filename": "vlad4_Emotionless_Voice_neutral_exchange_4.mp4",
+      "exchange_number": 5,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053769.3013403,
+      "event_type": "start",
+      "filename": "vlad4_Emotionless_Voice_disgust_exchange_5.mp4",
+      "exchange_number": 5,
+      "emotion_attempted": "disgust",
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749053813.4705393,
+      "event_type": "stop",
+      "filename": "vlad4_Emotionless_Voice_disgust_exchange_5.mp4",
+      "exchange_number": 6,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053815.7917385,
+      "event_type": "start",
+      "filename": "vlad4_Emotionless_Voice_happy_exchange_6.mp4",
+      "exchange_number": 6,
+      "emotion_attempted": "happy",
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749053839.8606083,
+      "event_type": "stop",
+      "filename": "vlad4_Emotionless_Voice_happy_exchange_6.mp4",
+      "exchange_number": 7,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053849.835498,
+      "event_type": "start",
+      "filename": "vlad4_Emotional_OpenAI_TTS_happy_exchange_0.mp4",
+      "exchange_number": 7,
+      "emotion_attempted": "happy",
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749053882.3712573,
+      "event_type": "stop",
+      "filename": "vlad4_Emotional_OpenAI_TTS_happy_exchange_0.mp4",
+      "exchange_number": 8,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053883.2353003,
+      "event_type": "start",
+      "filename": "vlad4_Emotional_OpenAI_TTS_surprise_exchange_1.mp4",
+      "exchange_number": 8,
+      "emotion_attempted": "surprise",
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749053909.70463,
+      "event_type": "stop",
+      "filename": "vlad4_Emotional_OpenAI_TTS_surprise_exchange_1.mp4",
+      "exchange_number": 9,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053910.8498793,
+      "event_type": "start",
+      "filename": "vlad4_Emotional_OpenAI_TTS_fear_exchange_2.mp4",
+      "exchange_number": 9,
+      "emotion_attempted": "fear",
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749053936.852565,
+      "event_type": "stop",
+      "filename": "vlad4_Emotional_OpenAI_TTS_fear_exchange_2.mp4",
+      "exchange_number": 10,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053940.2838058,
+      "event_type": "start",
+      "filename": "vlad4_Emotional_OpenAI_TTS_sad_exchange_3.mp4",
+      "exchange_number": 10,
+      "emotion_attempted": "sad",
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749053968.186788,
+      "event_type": "stop",
+      "filename": "vlad4_Emotional_OpenAI_TTS_sad_exchange_3.mp4",
+      "exchange_number": 11,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749053970.6220508,
+      "event_type": "start",
+      "filename": "vlad4_Emotional_OpenAI_TTS_angry_exchange_4.mp4",
+      "exchange_number": 11,
+      "emotion_attempted": "angry",
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749054008.959005,
+      "event_type": "stop",
+      "filename": "vlad4_Emotional_OpenAI_TTS_angry_exchange_4.mp4",
+      "exchange_number": 12,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749054009.9917085,
+      "event_type": "start",
+      "filename": "vlad4_Emotional_OpenAI_TTS_neutral_exchange_5.mp4",
+      "exchange_number": 12,
+      "emotion_attempted": "neutral",
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749054029.2301888,
+      "event_type": "stop",
+      "filename": "vlad4_Emotional_OpenAI_TTS_neutral_exchange_5.mp4",
+      "exchange_number": 13,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749054030.426728,
+      "event_type": "start",
+      "filename": "vlad4_Emotional_OpenAI_TTS_disgust_exchange_6.mp4",
+      "exchange_number": 13,
+      "emotion_attempted": "disgust",
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749054061.3649216,
+      "event_type": "stop",
+      "filename": "vlad4_Emotional_OpenAI_TTS_disgust_exchange_6.mp4",
+      "exchange_number": 14,
+      "emotion_attempted": null,
+      "voice_type": null
+    }
+  ]
+}

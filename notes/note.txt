@@ -1,0 +1,380 @@
+==================================================
+Welcome to the Story-Switch Game!
+==================================================
+In this game, we'll create a story together. I'll try to make you feel different emotions through storytelling.
+You'll type your part of the story, and I'll respond with mine.
+The game will end when we've explored each emotion twice.
+
+Robot says: "Okay, let's start!"
+
+Starting the story now...
+LLM client initialized successfully with OpenRouter.
+Using model: meta-llama/llama-3.3-8b-instruct:free
+
+Generating the story start...
+
+Story Start:
+You sit in the chair, the fluorescent lights above flickering slightly as you wait for instructions. The researcher's voice is calm, but the sound of the door creaking shut behind you makes you think you're alone. You glance around the room, noticing the one-way mirror on the wall, its glass surface reflecting the dim glow of the corridor outside. The chair's legs scrape against the floor as you shift, the sound echoing through the silent space of the Zernike campus.
+Error setting QTRobot emotion: ROS node has not been initialized yet. Please call init_node() first
+Adjusted for fear emotion: instructions='Speak in a trembling, hesitant voice with occasional pauses. Express anxiety and fear.', rate=1.2
+Using instructions for emotional tone: 'Speak in a trembling, hesitant voice with occasional pauses. Express anxiety and fear.'
+
+Your turn! Continue the story (speak into the microphone):
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Press ESC to cancel.
+Waiting for 'V' key press...
+Key 'V' pressed. Recording... (release key when done)
+Recording...
+Key 'V' released. Processing speech...
+Recognized: I'm very afraid I don't know the corridor of the journey to campus to escape the instructor
+You said: I'm very afraid I don't know the corridor of the journey to campus to escape the instructor
+
+Generating the AI's response...
+
+AI's Response:
+The researcher's words are muffled, but you can sense the distance in his tone as he says, "You'll be here for a while." Your eyes wander to the small, forgotten plant on the windowsill, its wilted leaves a testament to the neglect that fills the room.
+Error setting QTRobot emotion: ROS node has not been initialized yet. Please call init_node() first
+Adjusted for sad emotion: instructions='Speak in a somber, melancholic tone with a slight tremor. Express sadness and grief.', rate=0.9
+Using instructions for emotional tone: 'Speak in a somber, melancholic tone with a slight tremor. Express sadness and grief.'
+
+Emotion usage:
+happy: 0/2
+sad: 1/2
+angry: 0/2
+fear: 1/2
+surprise: 0/2
+disgust: 0/2
+neutral: 0/2
+
+Your turn! Continue the story (speak into the microphone):
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Press ESC to cancel.
+Waiting for 'V' key press...
+Key 'V' pressed. Recording... (release key when done)
+Recording...
+Key 'V' released. Processing speech...
+Recognized: meow meow Through The Wire
+You said: meow meow Through The Wire
+
+Generating the AI's response...
+
+AI's Response:
+The researcher's pen scratches against the notepad, the sound making you jump as he writes something down. The words "Subject 17" are underlined twice, the pencil marks deep and deliberate.
+Error setting QTRobot emotion: ROS node has not been initialized yet. Please call init_node() first
+Adjusted for fear emotion: instructions='Speak in a trembling, hesitant voice with occasional pauses. Express anxiety and fear.', rate=1.2
+Using instructions for emotional tone: 'Speak in a trembling, hesitant voice with occasional pauses. Express anxiety and fear.'
+
+Emotion usage:
+happy: 0/2
+sad: 1/2
+angry: 0/2
+fear: 2/2
+surprise: 0/2
+disgust: 0/2
+neutral: 0/2
+
+Your turn! Continue the story (speak into the microphone):
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Press ESC to cancel.
+Waiting for 'V' key press...
+Key 'V' pressed. Recording... (release key when done)
+Recording...
+Key 'V' released. Processing speech...
+Speech not recognized
+No speech detected or speech recognition failed.
+Please type your response:
+> im neither afraid of the notepad or the pen
+
+Generating the AI's response...
+
+\=AI's Response:
+The sunlight streams through the window, warming your skin as the researcher's chair creaks, signaling he's standing up to get you a glass of water. The sound of ice clinking in a glass is music to your ears.
+Error setting QTRobot emotion: ROS node has not been initialized yet. Please call init_node() first
+Adjusted for happy emotion: instructions='Speak in a cheerful, upbeat, and enthusiastic tone. Express joy and excitement.', rate=1.1
+Using instructions for emotional tone: 'Speak in a cheerful, upbeat, and enthusiastic tone. Express joy and excitement.'
+ 
+Emotion usage:
+happy: 1/2
+sad: 1/2
+angry: 0/2
+fear: 2/2
+surprise: 0/2
+disgust: 0/2
+neutral: 0/2
+
+Your turn! Continue the story (speak into the microphone):
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Press ESC to cancel.
+Waiting for 'V' key press...
+vKey 'V' pressed. Recording... (release key when done)
+Recording...
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvKey 'V' released. Processing speech...
+Recognized: sounds amazing and like a very Happy World
+You said: sounds amazing and like a very Happy World
+
+Generating the AI's response...
+
+AI's Response:
+The glass of water sits untouched on the edge of the table, its condensation forming a small puddle that slowly spreads across the surface. The researcher's chair remains empty, the silence a heavy weight that presses down on you.
+Error setting QTRobot emotion: ROS node has not been initialized yet. Please call init_node() first
+Adjusted for sad emotion: instructions='Speak in a somber, melancholic tone with a slight tremor. Express sadness and grief.', rate=0.9
+Using instructions for emotional tone: 'Speak in a somber, melancholic tone with a slight tremor. Express sadness and grief.'
+
+Emotion usage:
+happy: 1/2
+sad: 2/2
+angry: 0/2
+fear: 2/2
+surprise: 0/2
+disgust: 0/2
+neutral: 0/2
+
+Your turn! Continue the story (speak into the microphone):
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Press ESC to cancel.
+Waiting for 'V' key press...
+vvvKey 'V' pressed. Recording... (release key when done)
+Recording...
+Key 'V' released. Processing speech...
+Speech not recognized
+No speech detected or speech recognition failed.
+Please type your response:
+> through 
+
+Generating the AI's response...
+
+AI's Response:
+The researcher's voice is now a low hum, a vibration that seems to come from the very walls themselves. Your name is being called, but it's not the voice you were expecting, it's a voice that sounds exactly like your own.
+Error setting QTRobot emotion: ROS node has not been initialized yet. Please call init_node() first
+Adjusted for surprise emotion: instructions='Speak with a tone of astonishment and wonder. Express shock and amazement.', rate=1.1
+Using instructions for emotional tone: 'Speak with a tone of astonishment and wonder. Express shock and amazement.'
+
+Emotion usage:
+happy: 1/2
+sad: 2/2
+angry: 0/2
+fear: 2/2
+surprise: 1/2
+disgust: 0/2
+neutral: 0/2
+
+Your turn! Continue the story (speak into the microphone):
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Press ESC to cancel.
+Waiting for 'V' key press...
+vKey 'V' pressed. Recording... (release key when done)
+Recording...
+Key 'V' released. Processing speech...
+Speech not recognized
+No speech detected or speech recognition failed.
+Please type your response:
+> through 
+
+Generating the AI's response...
+
+AI's Response:
+The words on the notepad start to rearrange themselves, the pencil marks erasing and reforming into a message that wasn't there before. Your reflection in the one-way mirror is replaced by a stranger's face, their eyes staring back at you with a familiarity that's unnerving.
+Error setting QTRobot emotion: ROS node has not been initialized yet. Please call init_node() first
+Adjusted for surprise emotion: instructions='Speak with a tone of astonishment and wonder. Express shock and amazement.', rate=1.1
+Using instructions for emotional tone: 'Speak with a tone of astonishment and wonder. Express shock and amazement.'
+
+Emotion usage:
+happy: 1/2
+sad: 2/2
+angry: 0/2
+fear: 2/2
+surprise: 2/2
+disgust: 0/2
+neutral: 0/2
+
+Your turn! Continue the story (speak into the microphone):
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Press ESC to cancel.
+Waiting for 'V' key press...
+Key 'V' pressed. Recording... (release key when done)
+vRecording...
+Key 'V' released. Processing speech...
+Speech not recognized
+No speech detected or speech recognition failed.
+Please type your response:
+> through
+
+Generating the AI's response...
+
+AI's Response:
+The words on the notepad stop rearranging, and the pencil marks remain still. The researcher's chair creaks again, but this time he's sitting down, his hands resting on the armrests.
+Error setting QTRobot emotion: ROS node has not been initialized yet. Please call init_node() first
+Adjusted for neutral emotion: instructions='Speak in a balanced, even tone without strong emotional coloring.', rate=1.0
+Using instructions for emotional tone: 'Speak in a balanced, even tone without strong emotional coloring.'
+
+Emotion usage:
+happy: 1/2
+sad: 2/2
+angry: 0/2
+fear: 2/2
+surprise: 2/2
+disgust: 0/2
+neutral: 1/2
+
+Your turn! Continue the story (speak into the microphone):
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Press ESC to cancel.
+Waiting for 'V' key press...
+vvKey 'V' pressed. Recording... (release key when done)
+Recording...
+Key 'V' released. Processing speech...
+Speech not recognized
+No speech detected or speech recognition failed.
+Please type your response:
+> thrpugh
+
+Generating the AI's response...
+
+AI's Response:
+The researcher's hands are stained with a thick, green mold that seems to be seeping from his pores. His fingers are covered in a sticky, yellow substance that clings to his skin like a bad omen.
+Error setting QTRobot emotion: ROS node has not been initialized yet. Please call init_node() first
+Adjusted for disgust emotion: instructions='Speak with a tone of revulsion and disapproval. Express distaste and disgust.', rate=0.95
+Using instructions for emotional tone: 'Speak with a tone of revulsion and disapproval. Express distaste and disgust.'
+
+Emotion usage:
+happy: 1/2
+sad: 2/2
+angry: 0/2
+fear: 2/2
+surprise: 2/2
+disgust: 1/2
+neutral: 1/2
+
+Your turn! Continue the story (speak into the microphone):
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Press ESC to cancel.
+Waiting for 'V' key press...
+vKey 'V' pressed. Recording... (release key when done)
+Recording...
+Key 'V' released. Processing speech...
+Speech not recognized
+No speech detected or speech recognition failed.
+Please type your response:
+> through
+
+Generating the AI's response...
+
+AI's Response:
+The researcher's eyes are sunken, his pupils constricted into tiny dots that seem to bore into your skin. His voice is a low, menacing growl as he says, "It's time to take the next step."
+Error setting QTRobot emotion: ROS node has not been initialized yet. Please call init_node() first
+Adjusted for angry emotion: instructions='Speak in a stern, intense tone with emphasis on certain words. Express frustration and anger.', rate=1.15
+Using instructions for emotional tone: 'Speak in a stern, intense tone with emphasis on certain words. Express frustration and anger.'
+
+Emotion usage:
+happy: 1/2
+sad: 2/2
+angry: 1/2
+fear: 2/2
+surprise: 2/2
+disgust: 1/2
+neutral: 1/2
+
+Your turn! Continue the story (speak into the microphone):
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Press ESC to cancel.
+Waiting for 'V' key press...
+vvKey 'V' pressed. Recording... (release key when done)
+vRecording...
+Key 'V' released. Processing speech...
+Speech not recognized
+No speech detected or speech recognition failed.
+Please type your response:
+> throuvh
+
+Generating the AI's response...
+
+AI's Response:
+The researcher's breath is a putrid mixture of rot and decay, making your nostrils flare in response. His teeth are yellow and crooked, with visible gaps where teeth have fallen out, leaving behind a trail of festering sores.
+Error setting QTRobot emotion: ROS node has not been initialized yet. Please call init_node() first
+Adjusted for disgust emotion: instructions='Speak with a tone of revulsion and disapproval. Express distaste and disgust.', rate=0.95
+Using instructions for emotional tone: 'Speak with a tone of revulsion and disapproval. Express distaste and disgust.'
+
+Emotion usage:
+happy: 1/2
+sad: 2/2
+angry: 1/2
+fear: 2/2
+surprise: 2/2
+disgust: 2/2
+neutral: 1/2
+
+Your turn! Continue the story (speak into the microphone):
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Press ESC to cancel.
+Waiting for 'V' key press...
+vKey 'V' pressed. Recording... (release key when done)
+Recording...
+Key 'V' released. Processing speech...
+Speech not recognized
+No speech detected or speech recognition failed.
+Please type your response:
+> through
+
+Generating the AI's response...
+
+AI's Response:
+His hands are closing in on you, the stained fingers wrapping around your wrists like a vice. The researcher's grip is tightening, his nails digging into your skin with a brutal force.
+Error setting QTRobot emotion: ROS node has not been initialized yet. Please call init_node() first
+Adjusted for angry emotion: instructions='Speak in a stern, intense tone with emphasis on certain words. Express frustration and anger.', rate=1.15
+Using instructions for emotional tone: 'Speak in a stern, intense tone with emphasis on certain words. Express frustration and anger.'
+
+Emotion usage:
+happy: 1/2
+sad: 2/2
+angry: 2/2
+fear: 2/2
+surprise: 2/2
+disgust: 2/2
+neutral: 1/2
+
+Your turn! Continue the story (speak into the microphone):
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Press ESC to cancel.
+Waiting for 'V' key press...
+vKey 'V' pressed. Recording... (release key when done)
+Recording...
+Key 'V' released. Processing speech...
+Speech not recognized
+No speech detected or speech recognition failed.
+Please type your response:
+> through
+
+Generating the AI's response...
+
+AI's Response:
+The researcher's grip loosens, and he steps back, a warm smile spreading across his face as he says, "Let's take a break and get some fresh air." The door swings open, and a bright, sunny day greets you, filled with the sweet songs of birds.
+Error setting QTRobot emotion: ROS node has not been initialized yet. Please call init_node() first
+Adjusted for happy emotion: instructions='Speak in a cheerful, upbeat, and enthusiastic tone. Express joy and excitement.', rate=1.1
+Using instructions for emotional tone: 'Speak in a cheerful, upbeat, and enthusiastic tone. Express joy and excitement.'
+
+Emotion usage:
+happy: 2/2
+sad: 2/2
+angry: 2/2
+fear: 2/2
+surprise: 2/2
+disgust: 2/2
+neutral: 1/2
+
+Your turn! Continue the story (speak into the microphone):
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Push-to-talk mode: Press and hold 'V' key while speaking, release when done.
+Press ESC to cancel.
+Waiting for 'V' key press...

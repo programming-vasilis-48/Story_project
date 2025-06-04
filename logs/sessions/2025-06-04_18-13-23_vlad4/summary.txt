@@ -1,0 +1,153 @@
+SESSION SUMMARY
+==============
+
+Participant: vlad4
+Voice Type: Experiment with both voice types
+Session Time: 2025-06-04 18:13:23
+Duration: 7.87 minutes
+Total Exchanges: 14
+
+EMOTION USAGE
+============
+
+fear: 2
+angry: 2
+sad: 2
+surprise: 2
+neutral: 2
+disgust: 2
+happy: 2
+
+SPEECH EVENTS
+============
+
+[2025-06-04 18:14:12] ROBOT (fear): You sit in the chair at the Zernike campus. The researcher is out of sight, but you can hear them moving. The door is locked, you can't leave now. The sound of footsteps is getting closer, but they're not coming from the hallway.
+
+[2025-06-04 18:14:17] USER: Where are they coming from?
+
+[2025-06-04 18:14:27] ROBOT (angry): The floor is shaking, they're right behind you. They're standing over you, their breath on the back of your neck.
+
+[2025-06-04 18:14:38] USER: Damn, he's breathing and he's stinging as fuck. I don't want to smell this guy ever again in my life.
+
+[2025-06-04 18:14:53] ROBOT (sad): Your phone is on the table, the screen is dark, no messages, no calls. The researcher's voice is low, "I'm afraid it's time to say goodbye."
+
+[2025-06-04 18:15:04] USER: Oh no, I don't want to say goodbye, I don't want to let go.
+
+[2025-06-04 18:15:20] ROBOT (surprise): The researcher's hand is on your shoulder, but it's not just their hand, it's a glove with sharp fingers. The glove is pulling you up, and you're standing, but your feet aren't touching the floor.
+
+[2025-06-04 18:15:32] USER: I'm not touching the floor, I'm touching you.
+
+[2025-06-04 18:15:45] ROBOT (neutral): You are facing the researcher, their face is in front of you. They are not smiling, not frowning, just looking at you.
+
+[2025-06-04 18:16:06] USER: I look back at the researcher, and he's pretty, and I tell him that he's pretty, and then she comes and kisses me.
+
+[2025-06-04 18:16:20] ROBOT (disgust): Her tongue is in your mouth, and it's covered in something sticky. Her breath is warm and has a sour smell.
+
+[2025-06-04 18:16:53] USER: But that's how I like it, his tongue kisses me till I die because his tongue is so deep in my throat and his saliva is so moist and stinky that I vomit and I die, I vomit and I die.
+
+[2025-06-04 18:17:07] ROBOT (happy): You are surrounded by warm sunlight, and gentle fingers are stroking your hair. Soft music is playing, and you are swaying to the beat.
+
+[2025-06-04 18:17:19] USER: Yes, I'm going to Heaven. I knew that God was real.
+
+[2025-06-04 18:17:43] ROBOT (happy): You sit in a chair on the Zernike campus. You're here to take part in a study. The sun shines through the window behind you. You see friends walking by outside the door.
+
+[2025-06-04 18:18:02] USER: Oh, my friends that I miss so much. How are you doing?
+
+[2025-06-04 18:18:13] ROBOT (surprise): One of them suddenly stops in front of the door and stares at you. The friend's eyes are black as coal.
+
+[2025-06-04 18:18:29] USER: Oh, this black. How did it become this black?
+
+[2025-06-04 18:18:47] ROBOT (fear): The friend's face is now twisted, their mouth hanging open in a silent scream. The eyes seem to be pulling you in, closer and closer.
+
+[2025-06-04 18:18:56] USER: So close. What does it want, me?
+
+[2025-06-04 18:19:14] ROBOT (sad): The friend's mouth opens wider, revealing empty spaces where teeth used to be. Your voice is shaking as you whisper "what's happened to you".
+
+[2025-06-04 18:19:28] USER: Yeah, I miss my friend now, and I'm about to cry.
+
+[2025-06-04 18:19:42] ROBOT (angry): The friend's empty mouth curls into a snarl, revealing jagged edges. You're trapped, and it's taking a step closer.
+
+[2025-06-04 18:20:08] USER: I am trapped. How can this be? I'm trying to escape. I will leave this place once and for all. I said to my friend and then I ran through the security gates and I get a jetpack out of nowhere and I fly to the moon.
+
+[2025-06-04 18:20:23] ROBOT (neutral): You float in the moon's low gravity, the suit's life support systems humming. The earth is a blue-green globe below you, a familiar yet distant presence.
+
+[2025-06-04 18:20:29] USER: I'm... OJ.
+
+[2025-06-04 18:20:49] ROBOT (disgust): You notice a thick layer of gray dust coating the suit's exterior, and as you touch it, your finger comes away sticky with a foul substance. The suit's life support systems are now beeping erratically, warning of a toxic spill inside.
+
+[2025-06-04 18:21:01] USER: Damn, that's disgusting, ew. How could that ever happen? Disgusting.
+
+
+VIDEO RECORDINGS
+==============
+
+File: vlad4_Emotionless_Voice_fear_exchange_0.mp4
+Emotion: fear
+Start: 2025-06-04 18:13:56
+Duration: 21.30 seconds
+
+File: vlad4_Emotionless_Voice_angry_exchange_1.mp4
+Emotion: angry
+Start: 2025-06-04 18:14:18
+Duration: 19.77 seconds
+
+File: vlad4_Emotionless_Voice_sad_exchange_2.mp4
+Emotion: sad
+Start: 2025-06-04 18:14:39
+Duration: 25.64 seconds
+
+File: vlad4_Emotionless_Voice_surprise_exchange_3.mp4
+Emotion: surprise
+Start: 2025-06-04 18:15:06
+Duration: 25.94 seconds
+
+File: vlad4_Emotionless_Voice_neutral_exchange_4.mp4
+Emotion: neutral
+Start: 2025-06-04 18:15:34
+Duration: 32.20 seconds
+
+File: vlad4_Emotionless_Voice_disgust_exchange_5.mp4
+Emotion: disgust
+Start: 2025-06-04 18:16:09
+Duration: 44.17 seconds
+
+File: vlad4_Emotionless_Voice_happy_exchange_6.mp4
+Emotion: happy
+Start: 2025-06-04 18:16:55
+Duration: 24.07 seconds
+
+File: vlad4_Emotional_OpenAI_TTS_happy_exchange_0.mp4
+Emotion: happy
+Start: 2025-06-04 18:17:29
+Duration: 32.54 seconds
+
+File: vlad4_Emotional_OpenAI_TTS_surprise_exchange_1.mp4
+Emotion: surprise
+Start: 2025-06-04 18:18:03
+Duration: 26.47 seconds
+
+File: vlad4_Emotional_OpenAI_TTS_fear_exchange_2.mp4
+Emotion: fear
+Start: 2025-06-04 18:18:30
+Duration: 26.00 seconds
+
+File: vlad4_Emotional_OpenAI_TTS_sad_exchange_3.mp4
+Emotion: sad
+Start: 2025-06-04 18:19:00
+Duration: 27.90 seconds
+
+File: vlad4_Emotional_OpenAI_TTS_angry_exchange_4.mp4
+Emotion: angry
+Start: 2025-06-04 18:19:30
+Duration: 38.34 seconds
+
+File: vlad4_Emotional_OpenAI_TTS_neutral_exchange_5.mp4
+Emotion: neutral
+Start: 2025-06-04 18:20:09
+Duration: 19.24 seconds
+
+File: vlad4_Emotional_OpenAI_TTS_disgust_exchange_6.mp4
+Emotion: disgust
+Start: 2025-06-04 18:20:30
+Duration: 30.94 seconds
+

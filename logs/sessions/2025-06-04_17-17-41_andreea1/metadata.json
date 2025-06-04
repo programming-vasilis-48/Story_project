@@ -1,0 +1,17 @@
+{
+  "session_id": "2025-06-04_17-17-41_andreea1",
+  "person_name": "andreea1",
+  "voice_type": "Experiment with both voice types",
+  "start_time": 1749050261.6153026,
+  "end_time": 1749050856.571862,
+  "total_exchanges": 14,
+  "emotions_used": {
+    "neutral": 2,
+    "surprise": 2,
+    "fear": 2,
+    "disgust": 2,
+    "angry": 2,
+    "happy": 2,
+    "sad": 2
+  }
+}

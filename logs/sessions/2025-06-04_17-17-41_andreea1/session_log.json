@@ -1,0 +1,499 @@
+{
+  "metadata": {
+    "session_id": "2025-06-04_17-17-41_andreea1",
+    "person_name": "andreea1",
+    "voice_type": "Experiment with both voice types",
+    "start_time": 1749050261.6153026,
+    "end_time": 1749050856.5721018,
+    "total_exchanges": 14,
+    "emotions_used": {
+      "neutral": 2,
+      "surprise": 2,
+      "fear": 2,
+      "disgust": 2,
+      "angry": 2,
+      "happy": 2,
+      "sad": 2
+    }
+  },
+  "speech_events": [
+    {
+      "timestamp": 1749050307.1696007,
+      "speaker": "robot",
+      "text": "You sit in a chair at the Zernike campus. The room is quiet around you. You are taking part in a study. The researcher is typing on a computer nearby.",
+      "emotion_attempted": "neutral",
+      "duration": 13.15598464012146,
+      "exchange_number": 0,
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749050327.325855,
+      "speaker": "user",
+      "text": "The weather is really nice outside.",
+      "emotion_attempted": null,
+      "duration": 20.155631065368652,
+      "exchange_number": 1,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050339.6884925,
+      "speaker": "robot",
+      "text": "The researcher's eyes snap towards you, and they stop typing. A bird flies through the window, lands on the back of your chair.",
+      "emotion_attempted": "surprise",
+      "duration": 11.236639499664307,
+      "exchange_number": 1,
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749050353.4372165,
+      "speaker": "user",
+      "text": "The bird is being very loud because it wants to eat the crumbles that are on my researcher's desk.",
+      "emotion_attempted": null,
+      "duration": 13.74774980545044,
+      "exchange_number": 2,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050375.086888,
+      "speaker": "robot",
+      "text": "The bird's beak touches the crumbles, and it starts to peck at them loudly. The researcher's eyes are fixed on the bird, their face inches from the screen.",
+      "emotion_attempted": "fear",
+      "duration": 20.55628752708435,
+      "exchange_number": 2,
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749050391.5329623,
+      "speaker": "user",
+      "text": "The bird is now attacking the researcher because it wants to eat the sandwich in his hand as well.",
+      "emotion_attempted": null,
+      "duration": 16.444919109344482,
+      "exchange_number": 3,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050409.6114032,
+      "speaker": "robot",
+      "text": "The bird's beak rips into the sandwich, tearing flesh and bread apart. Greasy mayonnaise drips onto the researcher's shirt, mixing with the bird's droppings that have fallen from its belly.",
+      "emotion_attempted": "disgust",
+      "duration": 16.730912685394287,
+      "exchange_number": 3,
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749050427.7872417,
+      "speaker": "user",
+      "text": "The researcher stands up and is very angry. He's trying to clean the t-shirt, but the bird keeps attacking him.",
+      "emotion_attempted": null,
+      "duration": 18.174766063690186,
+      "exchange_number": 4,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050447.9295096,
+      "speaker": "robot",
+      "text": "The researcher's face is red and twisted, his eyes blazing with fury as he tries to shoo the bird away. He slams his hand on the desk, making you jump, and the bird takes flight, swooping back to dive-bomb him again.",
+      "emotion_attempted": "angry",
+      "duration": 18.91834020614624,
+      "exchange_number": 4,
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749050473.7568583,
+      "speaker": "user",
+      "text": "The bird is trying to exit the room, tries to find the window, but it hits very hard all the windows until it manages to find the open ones. The bird exits the room. The researcher is happy.",
+      "emotion_attempted": null,
+      "duration": 25.82563829421997,
+      "exchange_number": 5,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050487.8574207,
+      "speaker": "robot",
+      "text": "The room falls silent again, and the researcher lets out a deep breath. The sound of the bird's happy chirping can still be heard from outside.",
+      "emotion_attempted": "happy",
+      "duration": 12.667277097702026,
+      "exchange_number": 5,
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749050509.495303,
+      "speaker": "user",
+      "text": "But wait, the bird is coming back, but not alone, with 10 other birds, and keep attacking the researcher. They are swarming around his head, forming a tornado.",
+      "emotion_attempted": null,
+      "duration": 21.636539220809937,
+      "exchange_number": 6,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050532.0916424,
+      "speaker": "robot",
+      "text": "The researcher's eyes are wide with fear, his body trembling as the birds close in. Your chair is empty now, the room is still, and the only sound is the birds' relentless chirping.",
+      "emotion_attempted": "sad",
+      "duration": 21.572874307632446,
+      "exchange_number": 6,
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749050555.2168941,
+      "speaker": "user",
+      "text": "The birds finally stop attacking the researcher and chirping. They are all exiting the building and the room is quiet again.",
+      "emotion_attempted": null,
+      "duration": 23.124034643173218,
+      "exchange_number": 7,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050584.2013469,
+      "speaker": "robot",
+      "text": "You sit in a chair on the Zernike campus. You're here to take part in a study today. The sun is shining through the window, making the room feel bright. You look out the window and see students walking to class on the campus.",
+      "emotion_attempted": "happy",
+      "duration": 19.059531450271606,
+      "exchange_number": 7,
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749050612.712881,
+      "speaker": "user",
+      "text": "The students are going home because it's already five but I still look sad because I have to work and I cannot leave the University yet even though it's sunny and the weather is nice.",
+      "emotion_attempted": null,
+      "duration": 28.51007914543152,
+      "exchange_number": 8,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050640.1813982,
+      "speaker": "robot",
+      "text": "You're stuck here, waiting for someone to let you out, while the clock on the wall keeps ticking away, each second feeling like an eternity. The students outside are long gone, and now the campus is empty and silent, a stark contrast to the noise and chaos that's building up inside you.",
+      "emotion_attempted": "angry",
+      "duration": 26.034584283828735,
+      "exchange_number": 8,
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749050668.1146944,
+      "speaker": "user",
+      "text": "I'm trying to stay hopeful that very soon I'm going to get all my results and I can also leave and go home. And tomorrow is going to be another day, hopefully with a better outcome, and hopefully I can leave together with the other students and enjoy the day.",
+      "emotion_attempted": null,
+      "duration": 27.93197202682495,
+      "exchange_number": 9,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050678.1677396,
+      "speaker": "robot",
+      "text": "Your phone is ringing, but you don't want to answer it. The silence in the room is louder than the ringing.",
+      "emotion_attempted": "sad",
+      "duration": 8.81240963935852,
+      "exchange_number": 9,
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749050690.9476612,
+      "speaker": "user",
+      "text": "My mom is calling me wondering why I'm not home yet.",
+      "emotion_attempted": null,
+      "duration": 12.778266429901123,
+      "exchange_number": 10,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050706.083024,
+      "speaker": "robot",
+      "text": "Your mom's voice is on the speaker, and she's not alone, there's a stranger in the background. The stranger starts talking to you, asking about your research on the Zernike campus.",
+      "emotion_attempted": "surprise",
+      "duration": 13.839015483856201,
+      "exchange_number": 10,
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749050726.2875204,
+      "speaker": "user",
+      "text": "The voice of the stranger is very unsettling, especially being in the same room with my mom and questioning about my results. Is it maybe my supervisor?",
+      "emotion_attempted": null,
+      "duration": 20.203014373779297,
+      "exchange_number": 11,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050746.2685492,
+      "speaker": "robot",
+      "text": "The stranger's breath is audible on the speaker, and it's filled with last night's cigarette smoke and stale coffee. Your mom is trying to interrupt, but the stranger's voice is slurring over her words, making it sound like they're being dragged through mud.",
+      "emotion_attempted": "disgust",
+      "duration": 18.76112127304077,
+      "exchange_number": 11,
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749050778.6036215,
+      "speaker": "user",
+      "text": "My mom tries to silence the voice and it turned out it was just somebody else on another line. The stranger was not in the same room as my mom, which made me be feel relieved that my mom was safe.",
+      "emotion_attempted": null,
+      "duration": 32.3333637714386,
+      "exchange_number": 12,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050791.6007786,
+      "speaker": "robot",
+      "text": "The line goes dead, and your mom's voice is cut off. You're left with an unfamiliar silence, and then the sound of your own breathing fills the room.",
+      "emotion_attempted": "fear",
+      "duration": 11.694076776504517,
+      "exchange_number": 12,
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749050806.6615498,
+      "speaker": "user",
+      "text": "I am scared but it's okay. I think I can get through this.",
+      "emotion_attempted": null,
+      "duration": 15.058367013931274,
+      "exchange_number": 13,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050817.4013546,
+      "speaker": "robot",
+      "text": "You wait for a moment, then try to call your mom back. The phone rings, and then goes to voicemail.",
+      "emotion_attempted": "neutral",
+      "duration": 9.305742740631104,
+      "exchange_number": 13,
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749050840.83952,
+      "speaker": "user",
+      "text": "Then I tried to call again, and it turned out my mom was calling me as well. That's why it went to voicemail. I'm trying to call again to see if she responds, and she does.",
+      "emotion_attempted": null,
+      "duration": 23.436281442642212,
+      "exchange_number": 14,
+      "voice_type": null
+    }
+  ],
+  "video_events": [
+    {
+      "timestamp": 1749050294.011721,
+      "event_type": "start",
+      "filename": "andreea1_Emotional_OpenAI_TTS_neutral_exchange_0.mp4",
+      "exchange_number": 0,
+      "emotion_attempted": "neutral",
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749050327.3474462,
+      "event_type": "stop",
+      "filename": "andreea1_Emotional_OpenAI_TTS_neutral_exchange_0.mp4",
+      "exchange_number": 1,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050328.450631,
+      "event_type": "start",
+      "filename": "andreea1_Emotional_OpenAI_TTS_surprise_exchange_1.mp4",
+      "exchange_number": 1,
+      "emotion_attempted": "surprise",
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749050353.4523604,
+      "event_type": "stop",
+      "filename": "andreea1_Emotional_OpenAI_TTS_surprise_exchange_1.mp4",
+      "exchange_number": 2,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050354.5285828,
+      "event_type": "start",
+      "filename": "andreea1_Emotional_OpenAI_TTS_fear_exchange_2.mp4",
+      "exchange_number": 2,
+      "emotion_attempted": "fear",
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749050391.5645096,
+      "event_type": "stop",
+      "filename": "andreea1_Emotional_OpenAI_TTS_fear_exchange_2.mp4",
+      "exchange_number": 3,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050392.8790886,
+      "event_type": "start",
+      "filename": "andreea1_Emotional_OpenAI_TTS_disgust_exchange_3.mp4",
+      "exchange_number": 3,
+      "emotion_attempted": "disgust",
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749050427.814416,
+      "event_type": "stop",
+      "filename": "andreea1_Emotional_OpenAI_TTS_disgust_exchange_3.mp4",
+      "exchange_number": 4,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050429.0094118,
+      "event_type": "start",
+      "filename": "andreea1_Emotional_OpenAI_TTS_angry_exchange_4.mp4",
+      "exchange_number": 4,
+      "emotion_attempted": "angry",
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749050473.77855,
+      "event_type": "stop",
+      "filename": "andreea1_Emotional_OpenAI_TTS_angry_exchange_4.mp4",
+      "exchange_number": 5,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050475.188429,
+      "event_type": "start",
+      "filename": "andreea1_Emotional_OpenAI_TTS_happy_exchange_5.mp4",
+      "exchange_number": 5,
+      "emotion_attempted": "happy",
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749050509.5241597,
+      "event_type": "stop",
+      "filename": "andreea1_Emotional_OpenAI_TTS_happy_exchange_5.mp4",
+      "exchange_number": 6,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050510.516743,
+      "event_type": "start",
+      "filename": "andreea1_Emotional_OpenAI_TTS_sad_exchange_6.mp4",
+      "exchange_number": 6,
+      "emotion_attempted": "sad",
+      "voice_type": "Emotional OpenAI TTS"
+    },
+    {
+      "timestamp": 1749050555.2193227,
+      "event_type": "stop",
+      "filename": "andreea1_Emotional_OpenAI_TTS_sad_exchange_6.mp4",
+      "exchange_number": 7,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050565.1396718,
+      "event_type": "start",
+      "filename": "andreea1_Emotionless_Voice_happy_exchange_0.mp4",
+      "exchange_number": 7,
+      "emotion_attempted": "happy",
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749050612.7428062,
+      "event_type": "stop",
+      "filename": "andreea1_Emotionless_Voice_happy_exchange_0.mp4",
+      "exchange_number": 8,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050614.1448274,
+      "event_type": "start",
+      "filename": "andreea1_Emotionless_Voice_angry_exchange_1.mp4",
+      "exchange_number": 8,
+      "emotion_attempted": "angry",
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749050668.1479578,
+      "event_type": "stop",
+      "filename": "andreea1_Emotionless_Voice_angry_exchange_1.mp4",
+      "exchange_number": 9,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050669.353451,
+      "event_type": "start",
+      "filename": "andreea1_Emotionless_Voice_sad_exchange_2.mp4",
+      "exchange_number": 9,
+      "emotion_attempted": "sad",
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749050690.9564211,
+      "event_type": "stop",
+      "filename": "andreea1_Emotionless_Voice_sad_exchange_2.mp4",
+      "exchange_number": 10,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050692.2418907,
+      "event_type": "start",
+      "filename": "andreea1_Emotionless_Voice_surprise_exchange_3.mp4",
+      "exchange_number": 10,
+      "emotion_attempted": "surprise",
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749050726.312053,
+      "event_type": "stop",
+      "filename": "andreea1_Emotionless_Voice_surprise_exchange_3.mp4",
+      "exchange_number": 11,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050727.5040822,
+      "event_type": "start",
+      "filename": "andreea1_Emotionless_Voice_disgust_exchange_4.mp4",
+      "exchange_number": 11,
+      "emotion_attempted": "disgust",
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749050778.6080656,
+      "event_type": "stop",
+      "filename": "andreea1_Emotionless_Voice_disgust_exchange_4.mp4",
+      "exchange_number": 12,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050779.9042757,
+      "event_type": "start",
+      "filename": "andreea1_Emotionless_Voice_fear_exchange_5.mp4",
+      "exchange_number": 12,
+      "emotion_attempted": "fear",
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749050806.6739852,
+      "event_type": "stop",
+      "filename": "andreea1_Emotionless_Voice_fear_exchange_5.mp4",
+      "exchange_number": 13,
+      "emotion_attempted": null,
+      "voice_type": null
+    },
+    {
+      "timestamp": 1749050808.0929272,
+      "event_type": "start",
+      "filename": "andreea1_Emotionless_Voice_neutral_exchange_6.mp4",
+      "exchange_number": 13,
+      "emotion_attempted": "neutral",
+      "voice_type": "Emotionless Voice"
+    },
+    {
+      "timestamp": 1749050840.863738,
+      "event_type": "stop",
+      "filename": "andreea1_Emotionless_Voice_neutral_exchange_6.mp4",
+      "exchange_number": 14,
+      "emotion_attempted": null,
+      "voice_type": null
+    }
+  ]
+}

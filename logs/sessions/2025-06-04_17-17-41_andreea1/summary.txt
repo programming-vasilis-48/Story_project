@@ -1,0 +1,153 @@
+SESSION SUMMARY
+==============
+
+Participant: andreea1
+Voice Type: Experiment with both voice types
+Session Time: 2025-06-04 17:17:41
+Duration: 9.92 minutes
+Total Exchanges: 14
+
+EMOTION USAGE
+============
+
+neutral: 2
+surprise: 2
+fear: 2
+disgust: 2
+angry: 2
+happy: 2
+sad: 2
+
+SPEECH EVENTS
+============
+
+[2025-06-04 17:18:27] ROBOT (neutral): You sit in a chair at the Zernike campus. The room is quiet around you. You are taking part in a study. The researcher is typing on a computer nearby.
+
+[2025-06-04 17:18:47] USER: The weather is really nice outside.
+
+[2025-06-04 17:18:59] ROBOT (surprise): The researcher's eyes snap towards you, and they stop typing. A bird flies through the window, lands on the back of your chair.
+
+[2025-06-04 17:19:13] USER: The bird is being very loud because it wants to eat the crumbles that are on my researcher's desk.
+
+[2025-06-04 17:19:35] ROBOT (fear): The bird's beak touches the crumbles, and it starts to peck at them loudly. The researcher's eyes are fixed on the bird, their face inches from the screen.
+
+[2025-06-04 17:19:51] USER: The bird is now attacking the researcher because it wants to eat the sandwich in his hand as well.
+
+[2025-06-04 17:20:09] ROBOT (disgust): The bird's beak rips into the sandwich, tearing flesh and bread apart. Greasy mayonnaise drips onto the researcher's shirt, mixing with the bird's droppings that have fallen from its belly.
+
+[2025-06-04 17:20:27] USER: The researcher stands up and is very angry. He's trying to clean the t-shirt, but the bird keeps attacking him.
+
+[2025-06-04 17:20:47] ROBOT (angry): The researcher's face is red and twisted, his eyes blazing with fury as he tries to shoo the bird away. He slams his hand on the desk, making you jump, and the bird takes flight, swooping back to dive-bomb him again.
+
+[2025-06-04 17:21:13] USER: The bird is trying to exit the room, tries to find the window, but it hits very hard all the windows until it manages to find the open ones. The bird exits the room. The researcher is happy.
+
+[2025-06-04 17:21:27] ROBOT (happy): The room falls silent again, and the researcher lets out a deep breath. The sound of the bird's happy chirping can still be heard from outside.
+
+[2025-06-04 17:21:49] USER: But wait, the bird is coming back, but not alone, with 10 other birds, and keep attacking the researcher. They are swarming around his head, forming a tornado.
+
+[2025-06-04 17:22:12] ROBOT (sad): The researcher's eyes are wide with fear, his body trembling as the birds close in. Your chair is empty now, the room is still, and the only sound is the birds' relentless chirping.
+
+[2025-06-04 17:22:35] USER: The birds finally stop attacking the researcher and chirping. They are all exiting the building and the room is quiet again.
+
+[2025-06-04 17:23:04] ROBOT (happy): You sit in a chair on the Zernike campus. You're here to take part in a study today. The sun is shining through the window, making the room feel bright. You look out the window and see students walking to class on the campus.
+
+[2025-06-04 17:23:32] USER: The students are going home because it's already five but I still look sad because I have to work and I cannot leave the University yet even though it's sunny and the weather is nice.
+
+[2025-06-04 17:24:00] ROBOT (angry): You're stuck here, waiting for someone to let you out, while the clock on the wall keeps ticking away, each second feeling like an eternity. The students outside are long gone, and now the campus is empty and silent, a stark contrast to the noise and chaos that's building up inside you.
+
+[2025-06-04 17:24:28] USER: I'm trying to stay hopeful that very soon I'm going to get all my results and I can also leave and go home. And tomorrow is going to be another day, hopefully with a better outcome, and hopefully I can leave together with the other students and enjoy the day.
+
+[2025-06-04 17:24:38] ROBOT (sad): Your phone is ringing, but you don't want to answer it. The silence in the room is louder than the ringing.
+
+[2025-06-04 17:24:50] USER: My mom is calling me wondering why I'm not home yet.
+
+[2025-06-04 17:25:06] ROBOT (surprise): Your mom's voice is on the speaker, and she's not alone, there's a stranger in the background. The stranger starts talking to you, asking about your research on the Zernike campus.
+
+[2025-06-04 17:25:26] USER: The voice of the stranger is very unsettling, especially being in the same room with my mom and questioning about my results. Is it maybe my supervisor?
+
+[2025-06-04 17:25:46] ROBOT (disgust): The stranger's breath is audible on the speaker, and it's filled with last night's cigarette smoke and stale coffee. Your mom is trying to interrupt, but the stranger's voice is slurring over her words, making it sound like they're being dragged through mud.
+
+[2025-06-04 17:26:18] USER: My mom tries to silence the voice and it turned out it was just somebody else on another line. The stranger was not in the same room as my mom, which made me be feel relieved that my mom was safe.
+
+[2025-06-04 17:26:31] ROBOT (fear): The line goes dead, and your mom's voice is cut off. You're left with an unfamiliar silence, and then the sound of your own breathing fills the room.
+
+[2025-06-04 17:26:46] USER: I am scared but it's okay. I think I can get through this.
+
+[2025-06-04 17:26:57] ROBOT (neutral): You wait for a moment, then try to call your mom back. The phone rings, and then goes to voicemail.
+
+[2025-06-04 17:27:20] USER: Then I tried to call again, and it turned out my mom was calling me as well. That's why it went to voicemail. I'm trying to call again to see if she responds, and she does.
+
+
+VIDEO RECORDINGS
+==============
+
+File: andreea1_Emotional_OpenAI_TTS_neutral_exchange_0.mp4
+Emotion: neutral
+Start: 2025-06-04 17:18:14
+Duration: 33.34 seconds
+
+File: andreea1_Emotional_OpenAI_TTS_surprise_exchange_1.mp4
+Emotion: surprise
+Start: 2025-06-04 17:18:48
+Duration: 25.00 seconds
+
+File: andreea1_Emotional_OpenAI_TTS_fear_exchange_2.mp4
+Emotion: fear
+Start: 2025-06-04 17:19:14
+Duration: 37.04 seconds
+
+File: andreea1_Emotional_OpenAI_TTS_disgust_exchange_3.mp4
+Emotion: disgust
+Start: 2025-06-04 17:19:52
+Duration: 34.94 seconds
+
+File: andreea1_Emotional_OpenAI_TTS_angry_exchange_4.mp4
+Emotion: angry
+Start: 2025-06-04 17:20:29
+Duration: 44.77 seconds
+
+File: andreea1_Emotional_OpenAI_TTS_happy_exchange_5.mp4
+Emotion: happy
+Start: 2025-06-04 17:21:15
+Duration: 34.34 seconds
+
+File: andreea1_Emotional_OpenAI_TTS_sad_exchange_6.mp4
+Emotion: sad
+Start: 2025-06-04 17:21:50
+Duration: 44.70 seconds
+
+File: andreea1_Emotionless_Voice_happy_exchange_0.mp4
+Emotion: happy
+Start: 2025-06-04 17:22:45
+Duration: 47.60 seconds
+
+File: andreea1_Emotionless_Voice_angry_exchange_1.mp4
+Emotion: angry
+Start: 2025-06-04 17:23:34
+Duration: 54.00 seconds
+
+File: andreea1_Emotionless_Voice_sad_exchange_2.mp4
+Emotion: sad
+Start: 2025-06-04 17:24:29
+Duration: 21.60 seconds
+
+File: andreea1_Emotionless_Voice_surprise_exchange_3.mp4
+Emotion: surprise
+Start: 2025-06-04 17:24:52
+Duration: 34.07 seconds
+
+File: andreea1_Emotionless_Voice_disgust_exchange_4.mp4
+Emotion: disgust
+Start: 2025-06-04 17:25:27
+Duration: 51.10 seconds
+
+File: andreea1_Emotionless_Voice_fear_exchange_5.mp4
+Emotion: fear
+Start: 2025-06-04 17:26:19
+Duration: 26.77 seconds
+
+File: andreea1_Emotionless_Voice_neutral_exchange_6.mp4
+Emotion: neutral
+Start: 2025-06-04 17:26:48
+Duration: 32.77 seconds
+
