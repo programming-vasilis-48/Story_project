@@ -1,0 +1,20 @@
+# Core dependencies for video emotion analysis system
+pandas>=1.4.0
+numpy>=1.22.0
+matplotlib>=3.1.0
+seaborn>=0.11.0
+scipy>=1.8.0
+statsmodels>=0.14.0
+opencv-python>=4.5.0
+
+# For emotion detection (main analysis)
+py-feat>=0.5.0
+
+# Optional dependencies
+openpyxl>=3.0.0  # For Excel export
+pillow>=8.0.0    # Image processing
+scikit-learn>=1.0.0  # Additional ML utilities
+
+# Development and testing
+pytest>=6.0.0    # For unit testing
+jupyter>=1.0.0   # For interactive analysis
