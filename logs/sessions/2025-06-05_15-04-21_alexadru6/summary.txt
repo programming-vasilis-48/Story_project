@@ -1,0 +1,153 @@
+SESSION SUMMARY
+==============
+
+Participant: alexadru6
+Voice Type: Experiment with both voice types
+Session Time: 2025-06-05 15:04:21
+Duration: 7.56 minutes
+Total Exchanges: 14
+
+EMOTION USAGE
+============
+
+surprise: 2
+disgust: 2
+happy: 2
+sad: 2
+neutral: 2
+fear: 2
+angry: 2
+
+SPEECH EVENTS
+============
+
+[2025-06-05 15:05:13] ROBOT (surprise): You sit in the chair on the Zernike campus. The researcher hands you a strange device. The device beeps loudly and the room falls silent. The researcher says the study is ending, but you've only been here for 10 minutes.
+
+[2025-06-05 15:05:29] USER: The device is weird and it's starting to beep.
+
+[2025-06-05 15:05:40] ROBOT (disgust): You see a brown substance oozing from the device's cracks. It's crawling across the table, toward your hands.
+
+[2025-06-05 15:05:55] USER: I look at it and I run away immediately. It looks very strange.
+
+[2025-06-05 15:06:07] ROBOT (happy): You burst through the doors and into the bright sunlight, feeling the warm rays on your skin. You hear the sound of children laughing and playing in the distance.
+
+[2025-06-05 15:06:21] USER: I open my phone and I look at my messages, heading home.
+
+[2025-06-05 15:06:34] ROBOT (sad): You walk alone through the empty streets, the only sound being the echo of your footsteps. The houses and buildings seem to be closing in around you.
+
+[2025-06-05 15:06:50] USER: And I walk carelessly on the street, looking at the shops next to the street.
+
+[2025-06-05 15:07:02] ROBOT (neutral): You see people walking in both directions on the sidewalk. They pass by you without noticing anything out of the ordinary.
+
+[2025-06-05 15:07:12] USER: I just continue walking and ignoring them.
+
+[2025-06-05 15:07:30] ROBOT (fear): You notice that the people who passed by are now standing still, their eyes fixed on you. The shops behind them seem to be disappearing, one by one, as if being erased from existence.
+
+[2025-06-05 15:07:51] USER: I closed my eyes and then opened them again and then I realized I was sleeping and I had a dream.
+
+[2025-06-05 15:08:06] ROBOT (angry): You jolt awake to the sound of your phone blasting in your ear, the researcher's voice screaming on the other end. The words "you're not done yet" cut through the silence like a knife.
+
+[2025-06-05 15:08:17] USER: I look at him and I tell him that I'm actually done.
+
+[2025-06-05 15:08:39] ROBOT (neutral): You sit in a chair at Zernike campus. You are taking part in a study. The researcher is sitting across from you with a notebook. They ask you to answer some questions.
+
+[2025-06-05 15:08:51] USER: I answer the questions and provide them all the information that they need.
+
+[2025-06-05 15:09:06] ROBOT (angry): They scribble down your answers with a pen that scratches against the paper. Their eyes don't leave yours, but you sense a growing tension in the air.
+
+[2025-06-05 15:09:14] USER: That's a bit uncomfortable.
+
+[2025-06-05 15:09:31] ROBOT (disgust): The researcher's breath reeks of stale coffee and decay as they lean in closer to you. A fly buzzes around their head, landing on the rim of their dirty glasses.
+
+[2025-06-05 15:09:44] USER: I tell them there is a fly in the room, so maybe they should open a window.
+
+[2025-06-05 15:10:02] ROBOT (happy): The researcher smiles and opens the window, letting in a warm breeze that carries the scent of blooming flowers. Sunlight streams in, illuminating the dust motes that dance in the air.
+
+[2025-06-05 15:10:08] USER: What a beautiful day.
+
+[2025-06-05 15:10:29] ROBOT (fear): The wind picks up, and the window creaks ominously. The researcher's smile freezes, and they glance at the window as if something is waiting outside.
+
+[2025-06-05 15:10:44] USER: And I look over the window and I see that there's nothing outside and I tell them to calm down
+
+[2025-06-05 15:10:59] ROBOT (surprise): The researcher's eyes snap back to yours, and they speak in a low, urgent tone: Your name is not in the study records.
+
+[2025-06-05 15:11:09] USER: Then I just get up, say goodbye and leave.
+
+[2025-06-05 15:11:28] ROBOT (sad): You walk out of the room, leaving the researcher's empty chair behind. The door creaks shut, and you're left with the echo of your own footsteps fading into silence.
+
+[2025-06-05 15:11:40] USER: I walk away, going towards the elevator and press the button and wait.
+
+
+VIDEO RECORDINGS
+==============
+
+File: alexadru6_Emotionless_Voice_surprise_exchange_0.mp4
+Emotion: surprise
+Start: 2025-06-05 15:04:55
+Duration: 33.80 seconds
+
+File: alexadru6_Emotionless_Voice_disgust_exchange_1.mp4
+Emotion: disgust
+Start: 2025-06-05 15:05:30
+Duration: 25.17 seconds
+
+File: alexadru6_Emotionless_Voice_happy_exchange_2.mp4
+Emotion: happy
+Start: 2025-06-05 15:05:56
+Duration: 25.10 seconds
+
+File: alexadru6_Emotionless_Voice_sad_exchange_3.mp4
+Emotion: sad
+Start: 2025-06-05 15:06:22
+Duration: 28.34 seconds
+
+File: alexadru6_Emotionless_Voice_neutral_exchange_4.mp4
+Emotion: neutral
+Start: 2025-06-05 15:06:51
+Duration: 21.02 seconds
+
+File: alexadru6_Emotionless_Voice_fear_exchange_5.mp4
+Emotion: fear
+Start: 2025-06-05 15:07:13
+Duration: 37.94 seconds
+
+File: alexadru6_Emotionless_Voice_angry_exchange_6.mp4
+Emotion: angry
+Start: 2025-06-05 15:07:52
+Duration: 25.10 seconds
+
+File: alexadru6_Emotional_OpenAI_TTS_neutral_exchange_0.mp4
+Emotion: neutral
+Start: 2025-06-05 15:08:26
+Duration: 25.24 seconds
+
+File: alexadru6_Emotional_OpenAI_TTS_angry_exchange_1.mp4
+Emotion: angry
+Start: 2025-06-05 15:08:53
+Duration: 21.40 seconds
+
+File: alexadru6_Emotional_OpenAI_TTS_disgust_exchange_2.mp4
+Emotion: disgust
+Start: 2025-06-05 15:09:15
+Duration: 28.77 seconds
+
+File: alexadru6_Emotional_OpenAI_TTS_happy_exchange_3.mp4
+Emotion: happy
+Start: 2025-06-05 15:09:45
+Duration: 22.54 seconds
+
+File: alexadru6_Emotional_OpenAI_TTS_fear_exchange_4.mp4
+Emotion: fear
+Start: 2025-06-05 15:10:09
+Duration: 35.34 seconds
+
+File: alexadru6_Emotional_OpenAI_TTS_surprise_exchange_5.mp4
+Emotion: surprise
+Start: 2025-06-05 15:10:45
+Duration: 24.27 seconds
+
+File: alexadru6_Emotional_OpenAI_TTS_sad_exchange_6.mp4
+Emotion: sad
+Start: 2025-06-05 15:11:10
+Duration: 29.31 seconds
+

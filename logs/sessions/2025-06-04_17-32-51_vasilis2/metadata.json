@@ -1,0 +1,17 @@
+{
+  "session_id": "2025-06-04_17-32-51_vasilis2",
+  "person_name": "vasilis2",
+  "voice_type": "Experiment with both voice types",
+  "start_time": 1749051171.8661306,
+  "end_time": 1749051769.4184306,
+  "total_exchanges": 14,
+  "emotions_used": {
+    "fear": 2,
+    "surprise": 2,
+    "disgust": 2,
+    "sad": 2,
+    "neutral": 2,
+    "happy": 2,
+    "angry": 2
+  }
+}

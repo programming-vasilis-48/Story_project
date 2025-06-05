@@ -1,0 +1,17 @@
+{
+  "session_id": "2025-06-04_19-05-06_nikolaos5",
+  "person_name": "nikolaos5",
+  "voice_type": "Experiment with both voice types",
+  "start_time": 1749056706.3137186,
+  "end_time": 1749057170.5797586,
+  "total_exchanges": 14,
+  "emotions_used": {
+    "surprise": 2,
+    "disgust": 2,
+    "happy": 2,
+    "neutral": 2,
+    "fear": 2,
+    "sad": 2,
+    "angry": 2
+  }
+}

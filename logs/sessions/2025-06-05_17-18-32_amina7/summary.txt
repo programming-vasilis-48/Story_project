@@ -1,0 +1,153 @@
+SESSION SUMMARY
+==============
+
+Participant: amina7
+Voice Type: Experiment with both voice types
+Session Time: 2025-06-05 17:18:32
+Duration: 8.45 minutes
+Total Exchanges: 14
+
+EMOTION USAGE
+============
+
+disgust: 2
+surprise: 2
+neutral: 2
+sad: 2
+angry: 2
+happy: 2
+fear: 2
+
+SPEECH EVENTS
+============
+
+[2025-06-05 17:19:28] ROBOT (disgust): You sit in a chair at the Zernike campus in Groningen. The person in front of you is picking their nose. They wipe their fingers on their jeans and then touch the clipboard. The person behind you is eating a strong-smelling sandwich.
+
+[2025-06-05 17:19:36] USER: Ew, that's disgusting, but I kinda liked it.
+
+[2025-06-05 17:19:50] ROBOT (surprise): The person in front of you stands up and hands you the clipboard. Your name is on it, but you don't remember signing up for anything.
+
+[2025-06-05 17:19:58] USER: I say, I did not sign up for this.
+
+[2025-06-05 17:20:12] ROBOT (neutral): You look at the clipboard again, there are some papers attached to it with your name on them. The person who was eating the sandwich is now standing up, looking at you.
+
+[2025-06-05 17:20:27] USER: I told him, sit down man, he was pretty tall though and I'm a lot shorter than him.
+
+[2025-06-05 17:20:54] ROBOT (sad): The tall man's eyes seem to bore into your skin as he stands over you, his presence making the air feel heavier. Your eyes drop to the floor, where a crumpled up piece of paper catches your attention, a forgotten receipt from a café.
+
+[2025-06-05 17:21:10] USER: Which cafe is that? I remember it's my favorite cafe. I wish I was there with my father to drink a coffee.
+
+[2025-06-05 17:21:26] ROBOT (angry): The tall man's feet are inches from your face, his breath cold and stale. The person who was picking their nose is now standing next to him, a smug look on their face.
+
+[2025-06-05 17:21:43] USER: Who they think they are. I build a five-story building real quick and throw them off the roof of the building.
+
+[2025-06-05 17:21:59] ROBOT (happy): You walk out of the building and into the bright sunlight, feeling the warm rays on your skin. You see a group of people laughing and playing music on the street corner.
+
+[2025-06-05 17:22:24] USER: I like music, I'm a musician myself and I go and play guitar, violin and my cello and my piano all together with them.
+
+[2025-06-05 17:22:43] ROBOT (fear): The music screeches to a halt, and the instruments fall silent. The people's faces begin to stretch and distort, their eyes turning into black voids.
+
+[2025-06-05 17:23:07] USER: They have beautiful eyes, and they look at me, stare at me, and their eyes just hypnotize me, and I go to sleep.
+
+[2025-06-05 17:23:37] ROBOT (angry): You sit in the chair at Zernike campus. They're watching you, taking notes on your every move. You've been here for hours, and nobody even offers you a break. The researcher just tells you to keep going, no questions asked.
+
+[2025-06-05 17:23:47] USER: It's getting so tiring. I can't do it no more. I doubt myself.
+
+[2025-06-05 17:24:00] ROBOT (neutral): You look around the room, the fluorescent lights humming above. The researcher is still sitting there, not moving.
+
+[2025-06-05 17:24:07] USER: Since he is not moving, I go and move him.
+
+[2025-06-05 17:24:26] ROBOT (happy): You push the chair, and the researcher rolls across the floor, laughing. You hear the sound of papers flying out of his hands, and he gets up to chase after them.
+
+[2025-06-05 17:24:44] USER: The researcher is Goofy, and, uh, he becomes Donald Duck.
+
+[2025-06-05 17:24:56] ROBOT (surprise): You grab his hat, and he's now wearing a bright red nose. His eyes turn into beady little circles.
+
+[2025-06-05 17:25:13] USER: And his favorite thing is to go to the park with the kids and play with the kids.
+
+[2025-06-05 17:25:32] ROBOT (sad): You watch as the park empties out, the swings creaking in the wind. The children's laughter is gone, and the only sound is the rustling of leaves underfoot.
+
+[2025-06-05 17:25:49] USER: It was underfoot, now it was overfoot. Where is the goal I'm trying to shoot? With some bars. You can continue with some bars as well.
+
+[2025-06-05 17:26:05] ROBOT (disgust): You see the bars now, covered in a thick layer of grime and grease. Inside the bars, a rotting carcass is suspended, its flesh dripping onto the dirty floor.
+
+[2025-06-05 17:26:20] USER: Where is that? What is happening? What is going on? I was just watching in the park.
+
+[2025-06-05 17:26:37] ROBOT (fear): You look out the window, and the park is gone, replaced by a dark and endless tunnel. The bars from before are now outside, rattling against the glass.
+
+[2025-06-05 17:26:44] USER: You're so weird, why are you trying to weird me out like that?
+
+
+VIDEO RECORDINGS
+==============
+
+File: amina7_Emotional_OpenAI_TTS_disgust_exchange_0.mp4
+Emotion: disgust
+Start: 2025-06-05 17:19:07
+Duration: 28.80 seconds
+
+File: amina7_Emotional_OpenAI_TTS_surprise_exchange_1.mp4
+Emotion: surprise
+Start: 2025-06-05 17:19:38
+Duration: 19.34 seconds
+
+File: amina7_Emotional_OpenAI_TTS_neutral_exchange_2.mp4
+Emotion: neutral
+Start: 2025-06-05 17:19:59
+Duration: 27.90 seconds
+
+File: amina7_Emotional_OpenAI_TTS_sad_exchange_3.mp4
+Emotion: sad
+Start: 2025-06-05 17:20:29
+Duration: 40.60 seconds
+
+File: amina7_Emotional_OpenAI_TTS_angry_exchange_4.mp4
+Emotion: angry
+Start: 2025-06-05 17:21:11
+Duration: 32.21 seconds
+
+File: amina7_Emotional_OpenAI_TTS_happy_exchange_5.mp4
+Emotion: happy
+Start: 2025-06-05 17:21:44
+Duration: 39.17 seconds
+
+File: amina7_Emotional_OpenAI_TTS_fear_exchange_6.mp4
+Emotion: fear
+Start: 2025-06-05 17:22:25
+Duration: 42.47 seconds
+
+File: amina7_Emotionless_Voice_angry_exchange_0.mp4
+Emotion: angry
+Start: 2025-06-05 17:23:17
+Duration: 30.57 seconds
+
+File: amina7_Emotionless_Voice_neutral_exchange_1.mp4
+Emotion: neutral
+Start: 2025-06-05 17:23:48
+Duration: 19.01 seconds
+
+File: amina7_Emotionless_Voice_happy_exchange_2.mp4
+Emotion: happy
+Start: 2025-06-05 17:24:10
+Duration: 33.42 seconds
+
+File: amina7_Emotionless_Voice_surprise_exchange_3.mp4
+Emotion: surprise
+Start: 2025-06-05 17:24:45
+Duration: 28.12 seconds
+
+File: amina7_Emotionless_Voice_sad_exchange_4.mp4
+Emotion: sad
+Start: 2025-06-05 17:25:16
+Duration: 33.48 seconds
+
+File: amina7_Emotionless_Voice_disgust_exchange_5.mp4
+Emotion: disgust
+Start: 2025-06-05 17:25:50
+Duration: 29.99 seconds
+
+File: amina7_Emotionless_Voice_fear_exchange_6.mp4
+Emotion: fear
+Start: 2025-06-05 17:26:22
+Duration: 22.41 seconds
+

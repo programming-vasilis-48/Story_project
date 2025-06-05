@@ -142,7 +142,7 @@ def get_person_name() -> str:
         str: Person's name
     """
     print("Please enter your name for this experiment session:")
-    
+
     while True:
         try:
             name = input("> ").strip()
@@ -527,9 +527,25 @@ class EnhancedEmotionlessTTSEngine(EmotionlessTTSEngine):
 
 def main():
     """Main function to run the story-switch game."""
-    # Load environment variables and set API key
+    # Load environment variables
     load_dotenv()
-    openai_api_key = "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"
+    
+    # Get API keys from environment variables or use defaults
+    openai_api_key = os.environ.get("OPENAI_API_KEY", "")
+    openrouter_api_key = os.environ.get("OPENROUTER_API_KEY", "")
+    
+    # Check if we have valid API keys
+    if not openai_api_key:
+        print("ERROR: No OpenAI API key found. Set the OPENAI_API_KEY environment variable.")
+        print("Create a .env file in the project root with: OPENAI_API_KEY=your_api_key_here")
+        return 1
+        
+    if not openrouter_api_key:
+        print("ERROR: No OpenRouter API key found. Set the OPENROUTER_API_KEY environment variable.")
+        print("Add to your .env file: OPENROUTER_API_KEY=your_openrouter_key_here")
+        return 1
+    
+    print("API keys loaded successfully")
 
     try:
         # Initialize QT Robot emotion manager
@@ -556,7 +572,7 @@ def main():
         speech_available = hasattr(speech_recognizer, 'microphone') and speech_recognizer.microphone
 
         # Initialize LLM client
-        llm_client = LLMClient(provider="openrouter")
+        llm_client = LLMClient(provider="openrouter", api_key=openrouter_api_key)
 
         print("System initialization complete")
         
@@ -608,6 +624,8 @@ def main():
         
     except Exception as e:
         print(f"Error: {str(e)}")
+        import traceback
+        traceback.print_exc()
         return 1
 
 def run_experiment_with_tts(voice_choice, person_name, qt_emotion_manager, session_logger, video_recorder, 
@@ -657,7 +675,7 @@ def run_experiment_with_tts(voice_choice, person_name, qt_emotion_manager, sessi
 
         # Speak the entire introduction as one continuous speech
         tts_engine.speak(introduction)
-    
+
     # Initialize game state
     story_context = []
     
@@ -686,28 +704,28 @@ def run_experiment_with_tts(voice_choice, person_name, qt_emotion_manager, sessi
         else:
             # Generate continuation based on previous exchanges
             story_part = continue_story(llm_client, story_context, current_emotion)
-        
+
         # Start video recording
         video_filename = None
         if video_recorder and video_recorder.is_camera_available():
             video_filename = f"{person_name.lower().replace(' ', '_')}_{voice_type_name.replace(' ', '_')}_{current_emotion}_exchange_{emotion_index}.mp4"
             session_logger.log_video_start(current_emotion, video_filename, voice_type_name)
-            video_path = session_logger.get_video_path(video_filename)
-            video_recorder.start_recording(video_path)
-            
+        video_path = session_logger.get_video_path(video_filename)
+        video_recorder.start_recording(video_path)
+
         # QT speaks
         speech_start_time = time.time()
         tts_engine.adjust_for_emotion(current_emotion)
         tts_engine.speak(story_part)
         speech_duration = time.time() - speech_start_time
-        
+
         # Log QT's speech
         session_logger.log_robot_speech(story_part, current_emotion, speech_duration, voice_type_name)
         story_context.append(f"AI ({current_emotion}): {story_part}")
-        
+
         # User's turn to respond (for all emotions including the last one)
         user_speech_start_time = time.time()
-        
+
         if speech_available:
             user_input = speech_recognizer.listen_once(push_to_talk=True, push_to_talk_key='v')
             if not user_input:
@@ -715,18 +733,18 @@ def run_experiment_with_tts(voice_choice, person_name, qt_emotion_manager, sessi
                 user_input = input("> ")
         else:
             user_input = input("> ")
-            
+
         user_speech_duration = time.time() - user_speech_start_time
         session_logger.log_user_speech(user_input, user_speech_duration)
-        
+
         # Stop video recording after user response
         if video_recorder and video_recorder.is_recording and video_filename:
             video_recorder.stop_recording()
             session_logger.log_video_stop(video_filename)
-        
+
         # Add user's response to context
         story_context.append(f"User: {user_input}")
-        
+
         # Move to next emotion
         emotion_index += 1
         
@@ -736,7 +754,7 @@ def run_experiment_with_tts(voice_choice, person_name, qt_emotion_manager, sessi
         end_message = f"Thank you for creating this story with me."
         tts_engine.adjust_for_emotion("neutral")
         tts_engine.speak(end_message)
-    
+
     session_logger.log_event(f"Completed story with {voice_type_name}")
 
 if __name__ == "__main__":
@@ -748,6 +766,6 @@ if __name__ == "__main__":
         print(f"\nError during session: {str(e)}")
     finally:
         if 'session_logger' in locals():
-                session_logger.save_session_log()
+            session_logger.save_session_log()
         if 'video_recorder' in locals():
-                video_recorder.cleanup()
+            video_recorder.cleanup()

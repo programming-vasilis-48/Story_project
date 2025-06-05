@@ -142,7 +142,7 @@ class SessionLogger:
         if voice_type:
             print(f"[LOG] Voice type: {voice_type}")
         print(f"[LOG] Content: \"{text}\"")
-
+        
         # Save updates to disk after each interaction
         self._save_session_data()
 

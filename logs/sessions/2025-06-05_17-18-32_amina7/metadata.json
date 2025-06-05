@@ -1,0 +1,17 @@
+{
+  "session_id": "2025-06-05_17-18-32_amina7",
+  "person_name": "amina7",
+  "voice_type": "Experiment with both voice types",
+  "start_time": 1749136712.8750226,
+  "end_time": 1749137219.6981215,
+  "total_exchanges": 14,
+  "emotions_used": {
+    "disgust": 2,
+    "surprise": 2,
+    "neutral": 2,
+    "sad": 2,
+    "angry": 2,
+    "happy": 2,
+    "fear": 2
+  }
+}
