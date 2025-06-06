@@ -1,0 +1,35 @@
+# --- Virtual Environments ---
+# Ignore the specific environment you created, and other common names
+story_project_gpu_env/
+venv/
+.venv/
+*env/
+
+# --- Environment Variables ---
+# Ignore .env files which may contain secrets
+.env
+.env.*
+
+# --- Python Cache and Compiled Files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- IDE / Editor-specific ---
+.vscode/
+.idea/
+
+# --- HPC Log Files ---
+# Ignore the Slurm log directory you created
+slurm_logs/
+*.log
+
+# --- Results & Data (Optional) ---
+# It's good practice to not store large data or result files in Git.
+# Uncomment the line below if your results folder is large.
+# video_analysis/results/
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db

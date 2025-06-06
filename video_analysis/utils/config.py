@@ -18,7 +18,7 @@ VOICE_TYPES = ['Emotional_OpenAI_TTS', 'Emotionless_Voice']
 FEAT_CONFIG = {
     'face_model': 'retinaface',
     'landmark_model': 'mobilefacenet',
-    'au_model': 'xgb',
+    'au_model': 'svm',
     'emotion_model': 'resmasknet',
     'facepose_model': 'img2pose'
 }
